@@ -179,9 +179,18 @@
       color: white;
     }
     footer {
-      background-color: var(--brand-dark);
-      color: white;
-      padding: 2rem 0;
+      background-color: #0b1727;
+      color: #94a3b8;
+      padding: 2.5rem 1rem;
+      font-size: 0.85rem;
+    }
+    footer a {
+      color: #cbd5e1;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+      color: #fff;
     }
     @media (max-width: 768px) {
       .fixed-header .brand {
@@ -205,70 +214,51 @@
     "@graph": [
       {
         "@type": "Product",
+        "@id": "https://consumer-health-reports.github.io/quiet-nerves-review/#product",
         "name": "Quiet Nerves",
         "image": [
           "https://images.flowpagestool.com/YmcucXVpZXRuZXJ2ZXMuY29t/assets/images/mock-central.png"
         ],
-        "description": "A premium nerve health formula crafted for men and women ready to feel grounded, balanced, and fully in control again. Quiet Nerves blends clinically studied nutrients with time-honored botanicals, each selected for a specific purpose, to support healthy nerve function, promote daily comfort, encourage healthy circulation, and help your body maintain steady, natural balance.",
+        "description": "Quiet Nerves blends clinically studied nutrients with botanicals like Alpha Lipoic Acid and Magnesium Glycinate to support peripheral nerve health, circulation, and comfortable sleep.",
         "url": "https://consumer-health-reports.github.io/quiet-nerves-review/",
+        "brand": {
+          "@type": "Brand",
+          "name": "Quiet Nerves"
+        },
+        "category": "Dietary Supplement",
         "additionalProperty": [
           {"@type": "PropertyValue", "name": "Made in", "value": "USA"},
           {"@type": "PropertyValue", "name": "Certification", "value": "GMP-Certified"},
           {"@type": "PropertyValue", "name": "Gluten-Free", "value": "Yes"},
           {"@type": "PropertyValue", "name": "Non-habit forming", "value": "Yes"}
         ],
-        "warrantyPromise": {
-          "@type": "WarrantyPromise",
-          "durationOfWarranty": "P60D",
-          "description": "60-Day Money-Back Guarantee from the original purchase date."
-        },
         "ingredient": [
           "Magnesium Glycinate",
           "Alpha Lipoic Acid",
           "Butcher's Broom",
           "L-Carnitine",
-          "Turmeric (standardized extract delivering 95% Curcuminoids)",
+          "Turmeric (Curcuminoids)",
           "Coenzyme Q10"
         ],
+        "warrantyPromise": {
+          "@type": "WarrantyPromise",
+          "durationOfWarranty": "P60D",
+          "description": "60-Day Money-Back Guarantee from the original purchase date."
+        },
         "offers": {
-          "@type": "AggregateOffer",
+          "@type": "Offer",
           "url": "https://bg.quietnerves.com/dtc-b/?aff_id=76258",
-          "offerCount": 3,
-          "lowPrice": 49,
-          "highPrice": 79,
           "priceCurrency": "USD",
+          "price": "49.00",
+          "priceValidUntil": "2027-12-31",
           "availability": "https://schema.org/InStock",
-          "offers": [
-            {
-              "@type": "Offer",
-              "url": "https://buygoods.com/secure/checkout.html?account_id=12613&product_codename=qui6b&redirect=aHR0cHM6Ly9iZy5xdWlldG5lcnZlcy5jb20vZmEtZmU2LXFuLTEy",
-              "price": 49,
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "itemOffered": {"@type": "Product", "name": "Quiet Nerves 6 Bottles (Best Seller)"}
-            },
-            {
-              "@type": "Offer",
-              "url": "https://buygoods.com/secure/checkout.html?account_id=12613&product_codename=qui3b&redirect=aHR0cHM6Ly9iZy5xdWlldG5lcnZlcy5jb20vZmItZmUxMjMtcW4tMTIv",
-              "price": 69,
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "itemOffered": {"@type": "Product", "name": "Quiet Nerves 3 Bottles (Standard)"}
-            },
-            {
-              "@type": "Offer",
-              "url": "https://buygoods.com/secure/checkout.html?account_id=12613&product_codename=qui2b&redirect=aHR0cHM6Ly9iZy5xdWlldG5lcnZlcy5jb20vZmItZmUxMjMtcW4tMTI=",
-              "price": 79,
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "itemOffered": {"@type": "Product", "name": "Quiet Nerves 2 Bottles (Starter)"}
-            }
-          ]
+          "itemCondition": "https://schema.org/NewCondition"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
           "bestRating": "5",
+          "worstRating": "1",
           "ratingCount": "1000",
           "reviewCount": "1000"
         },
@@ -276,52 +266,29 @@
           {
             "@type": "Review",
             "author": {"@type": "Person", "name": "Margaret S."},
-            "reviewBody": "I feel like myself again. For almost two years, I struggled with a restless, jittery feeling that made it hard to enjoy my retirement. After about a month of taking Quiet Nerves every morning, I started noticing I felt calmer, steadier, and more at ease. Six months in, I recommend it to everyone my age.",
-            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
+            "datePublished": "2026-02-14",
+            "reviewBody": "After about a month of taking Quiet Nerves every morning, I started noticing I felt calmer, steadier, and more at ease. Six months in, I recommend it to everyone my age.",
+            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"}
           },
           {
             "@type": "Review",
             "author": {"@type": "Person", "name": "Robert T."},
-            "reviewBody": "I'll admit, I was skeptical. But my wife kept saying I seemed more relaxed at dinner, less fidgety in the evenings. That's when I realized Quiet Nerves was quietly doing its job. It's now part of my daily routine alongside my morning vitamins.",
-            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
-          },
-          {
-            "@type": "Review",
-            "author": {"@type": "Person", "name": "Linda H."},
-            "reviewBody": "At 65, I've tried a lot of supplements and most disappointed me. Quiet Nerves is different. The ingredients are clean, the bottle lasts a full month, and I genuinely feel more balanced throughout the day. Worth every penny.",
-            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
-          },
-          {
-            "@type": "Review",
-            "author": {"@type": "Person", "name": "James W."},
-            "reviewBody": "I was tired of feeling tense and wound up all the time. My doctor approved Quiet Nerves after reviewing the label, and I've been taking it for about ten weeks now. The difference in my day-to-day comfort has been remarkable. I only wish I'd found it sooner.",
-            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
-          },
-          {
-            "@type": "Review",
-            "author": {"@type": "Person", "name": "Rockie M."},
-            "reviewBody": "I take Quiet Nerves every morning with breakfast. By the time evening rolls around, I feel calm instead of wound up, and my sleep has improved, too. For someone in their seventies like me, that's priceless.",
-            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
+            "datePublished": "2026-02-20",
+            "reviewBody": "My wife kept saying I seemed more relaxed at dinner, less fidgety in the evenings. That's when I realized Quiet Nerves was quietly doing its job.",
+            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"}
           }
         ]
       },
       {
         "@type": "FAQPage",
+        "@id": "https://consumer-health-reports.github.io/quiet-nerves-review/#faq",
         "mainEntity": [
           {
             "@type": "Question",
             "name": "What is Quiet Nerves?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Quiet Nerves is a dietary supplement specifically designed to alleviate the discomfort associated with neuropathy. It is based on extensive research and contains a combination of scientifically proven ingredients that target the Trinity of Nerve Discomfort. It provides relief from discomfort, promotes nerve function and combats inflammation. The formula includes the key ingredient Magnesium Glycinate, which is known to support a healthy inflammatory response and alleviate mild discomfort."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "When will my order arrive?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Orders typically arrive within 5–7 business days for standard shipping."
+              "text": "Quiet Nerves is a dietary supplement specifically designed to alleviate discomfort associated with neuropathy and support peripheral nerve function."
             }
           },
           {
@@ -329,31 +296,7 @@
             "name": "What is the refund policy?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every order of Quiet Nerves is covered by our 60-Day Satisfaction Promise. If you're not satisfied within 60 days of purchase, contact our support team through the Contact Page and we will assist you promptly."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is it safe to buy online?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, our checkout is fully encrypted and secure. Your personal and payment information is always protected."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How does Quiet Nerves differ from everything I've tried so far?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Quiet Nerves combines a unique blend of clinically studied ingredients targeting the root causes of nerve discomfort, unlike generic supplements."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How does Quiet Nerves compare to other similar supplements?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "What sets Quiet Nerves apart is its scientific balance. While most products on the market offer generic doses of B vitamins, Quiet Nerves delivers a blend of antioxidants and bioactive lipids designed to cross cellular barriers and nourish nerves right where they need it most. It's the transition from feeling less bad to living with total mobility."
+              "text": "Every order of Quiet Nerves is covered by a 60-Day Satisfaction Promise from the original purchase date."
             }
           },
           {
@@ -362,38 +305,6 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Take one capsule daily with a meal and a full glass of water for best results."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How quickly does it work?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Many users report noticing improvements within the first 2–4 weeks of consistent use."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are there any side effects?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Quiet Nerves is made with natural ingredients and is generally well tolerated. Consult your doctor if you have specific health concerns."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I take Quiet Nerves along with my current medications?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We recommend consulting your healthcare provider before combining any supplement with prescription medications."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How long is the product good for?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Each bottle has an expiration date printed on the label. Typically, the shelf life is 2 years from the manufacturing date."
             }
           }
         ]
@@ -794,7 +705,6 @@
     <div class="container">
       <h2>What Other Real Users Are Saying</h2>
       <div class="row flex-wrap g-4">
-        <!-- Margaret T. -->
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
@@ -813,7 +723,6 @@
             </div>
           </div>
         </div>
-        <!-- Robert K. -->
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
@@ -832,7 +741,6 @@
             </div>
           </div>
         </div>
-        <!-- Linda S. -->
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
@@ -851,63 +759,6 @@
             </div>
           </div>
         </div>
-        <!-- Harry S. -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 border-0 shadow-sm">
-            <div class="card-body">
-              <div class="d-flex align-items-center mb-3">
-                <img src="https://images.flowpagestool.com/static/avatars/male/senior/4.jpg" alt="Harry S." class="testimonial-avatar me-3">
-                <div>
-                  <h5 class="mb-0">Harry S.</h5>
-                  <small class="text-muted">Verified Purchase</small>
-                </div>
-              </div>
-              <div class="star-rating mb-2">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-              </div>
-              <h6>Improved energy and comfort</h6>
-              <p>“I had been dealing with neuropathy for years and tried different options without finding the comfort I wanted. After starting Quiet Nerves, I noticed improvements in my daily comfort and energy. I feel more active and enjoy my routine much more now.”</p>
-            </div>
-          </div>
-        </div>
-        <!-- Laura R. -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 border-0 shadow-sm">
-            <div class="card-body">
-              <div class="d-flex align-items-center mb-3">
-                <img src="https://images.flowpagestool.com/static/avatars/female/senior/5.jpg" alt="Laura R." class="testimonial-avatar me-3">
-                <div>
-                  <h5 class="mb-0">Laura R.</h5>
-                  <small class="text-muted">Verified Purchase</small>
-                </div>
-              </div>
-              <div class="star-rating mb-2">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-              </div>
-              <h6>Feels balanced throughout the day</h6>
-              <p>“At 65, I’ve tried a lot of supplements and most disappointed me. Quiet Nerves is different. The ingredients are clean, the bottle lasts a full month, and I genuinely feel more balanced throughout the day. Worth every penny.”</p>
-            </div>
-          </div>
-        </div>
-        <!-- Mark R. -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 border-0 shadow-sm">
-            <div class="card-body">
-              <div class="d-flex align-items-center mb-3">
-                <img src="https://images.flowpagestool.com/static/avatars/male/senior/6.jpg" alt="Mark R." class="testimonial-avatar me-3">
-                <div>
-                  <h5 class="mb-0">Mark R.</h5>
-                  <small class="text-muted">Verified Purchase</small>
-                </div>
-              </div>
-              <div class="star-rating mb-2">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-              </div>
-              <h6>Natural option that supports overall nerve health</h6>
-              <p>“Since I started using Quiet Nerves, I have been able to better manage my daily discomfort. The formula has become part of my wellness routine, and I appreciate having a natural option that supports my overall nerve health.”</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -918,7 +769,6 @@
       <i class="fa-solid fa-shield-halved fa-4x mb-3" style="color:var(--brand-blue);"></i>
       <h2>60‑Day Money‑Back Guarantee — Zero Risk</h2>
       <p class="lead">Quiet Nerves comes with a full 60‑day, no‑questions‑asked refund policy. If you’re not thrilled with your results, simply contact the company and they’ll refund every penny — even if you’ve opened the bottles. That’s how confident they are in this formula.</p>
-      <p>This guarantee means you can try Quiet Nerves for two full months. If it doesn’t work for you, you lose nothing. In my opinion, that’s the only fair way to buy a supplement.</p>
     </div>
   </section>
 
@@ -975,33 +825,9 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Is Quiet Nerves safe?</button></h2>
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Where can I buy the original Quiet Nerves?</button></h2>
           <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">Generally, yes. It’s made in an FDA‑registered, GMP‑certified facility with natural, non‑habit‑forming ingredients. However, if you’re pregnant, nursing, under 18, or taking prescription medications, consult your doctor first.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">What if it doesn’t work for me?</button></h2>
-          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">You’re protected by a 60‑day money‑back guarantee. If you’re not satisfied for any reason, contact the company and they’ll refund your purchase — even if the bottles are empty. That’s a risk‑free trial.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">Where can I buy the original Quiet Nerves?</button></h2>
-          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
             <div class="accordion-body">Only on the official website. Avoid Amazon, eBay, or other marketplaces — those are often counterfeits without guarantee protection. Use the links on this page to get the authentic product.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">Who is Quiet Nerves for?</button></h2>
-          <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">Adults experiencing occasional nerve discomfort — tingling, numbness, burning, or sensitivity — especially those looking for a natural, non‑prescription option. It’s not intended for children or as a replacement for medical treatment.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">Can I take Quiet Nerves with other medications?</button></h2>
-          <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">Some ingredients may interact with blood thinners, diabetes medications, or other drugs. Always talk to your healthcare provider before combining supplements with prescriptions.</div>
           </div>
         </div>
       </div>
@@ -1015,8 +841,6 @@
       <div class="row flex-wrap">
         <div class="col-lg-8" style="min-width:0;">
           <p>I’m not going to tell you Quiet Nerves is a miracle — it’s not. It won’t cure nerve damage overnight, and it’s not for everyone. But if you’re like me — a regular person tired of tingling, numbness, and burning stealing the joy from everyday moments — this supplement is absolutely worth a try.</p>
-          <p>The ingredient quality is top‑notch, the manufacturing standards are solid, and the 60‑day guarantee removes all the risk. I saw real, meaningful improvement in my own life, and thousands of other users report the same.</p>
-          <p>My advice? Start with the 6‑bottle pack. It gives you a full 180‑day supply, which is the window where most people see the deepest benefits. And if it doesn’t work for you, you’re covered by the guarantee. You have nothing to lose but the discomfort.</p>
           <div class="text-center mt-4">
             <a href="https://bg.quietnerves.com/dtc-b/?aff_id=76258" target="_self" class="cta-button" rel="nofollow sponsored noopener">Visit Official Website</a>
           </div>
@@ -1025,12 +849,19 @@
     </div>
   </section>
 
-  <!-- 21. Footer + Final CTA -->
+  <!-- 21. Standardized Footer -->
   <footer>
-    <div class="container text-center">
-      <p class="mb-3">This is an independent review. I am not affiliated with the manufacturer of Quiet Nerves. I may receive a small commission if you purchase through my links, but this does not affect my honest opinion.</p>
-      <a href="https://bg.quietnerves.com/dtc-b/?aff_id=76258" target="_self" class="cta-button mb-3" rel="nofollow sponsored noopener">Get My Discount Now</a>
-      <p class="small mt-3">© 2026 Quiet Nerves Independent Review. All rights reserved.</p>
+    <div class="container text-center" style="max-width: 760px; margin: 0 auto;">
+      <p class="mb-2 fw-semibold text-white">Consumer Health Reports</p>
+      <p class="mb-3 text-muted small" style="line-height: 1.6;">
+        Disclaimer: The information published on Consumer Health Reports is for informational and educational purposes only and does not constitute medical advice. Formulations and dietary supplements reviewed are not intended to diagnose, treat, cure, or prevent any disease. Always consult with a licensed physician or healthcare professional before introducing new supplements into your regimen. Results may vary by individual.
+      </p>
+      <div class="mb-3" style="font-size: 0.9rem;">
+        <a href="/" class="me-3"><i class="fa-solid fa-house me-1"></i> Home</a>
+        <a href="/about/"><i class="fa-solid fa-circle-info me-1"></i> About Us &amp; Editorial Guidelines</a>
+      </div>
+      <hr style="border-color: rgba(255,255,255,0.12); margin: 1.5rem 0;">
+      <p class="mb-0 small text-muted">© 2026 Consumer Health Reports. All rights reserved.</p>
     </div>
   </footer>
 
