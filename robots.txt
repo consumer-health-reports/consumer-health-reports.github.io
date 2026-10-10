@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://consumer-health-reports.github.io/sitemap.xml
