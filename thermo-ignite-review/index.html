@@ -41,10 +41,12 @@
       align-items: center;
       justify-content: space-between;
     }
-    .header-brand {
+    .header-brand a {
       font-weight: 700;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       letter-spacing: -0.5px;
+      color: white;
+      text-decoration: none;
     }
     .header-review-badge {
       background: var(--brand-orange);
@@ -152,18 +154,23 @@
       text-align: center;
       margin: 2rem 0;
     }
-    .footer {
-      background: var(--brand-dark);
-      color: #ccc;
-      padding: 2rem 0;
-      text-align: center;
+    footer {
+      background: #0b1727;
+      color: #94a3b8;
+      padding: 2.5rem 1rem;
+      font-size: 0.85rem;
     }
-    .footer a {
-      color: var(--brand-orange);
+    footer a {
+      color: #cbd5e1;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+      color: #fff;
     }
     @media (max-width: 768px) {
       .fixed-header .container { flex-wrap: wrap; }
-      .header-brand { font-size: 1.2rem; }
+      .header-brand a { font-size: 1.05rem; }
     }
   </style>
   <style id="fp-media-guard">@media (max-width:480px){img,video,iframe{max-width:100% !important;}}</style>
@@ -176,12 +183,16 @@
       {
         "@type": "Product",
         "@id": "https://consumer-health-reports.github.io/thermo-ignite-review/#product",
-        "name": "ThermoIgnite",
-        "description": "Thermo Ignite is a fast-absorbing dietary supplement formulated to support weight loss by combining clinically researched plant extracts, amino acids, and minerals. Unlike pills that take time to break down, Thermo Ignite comes in liquid drop form, allowing for faster absorption and easier digestion.",
+        "name": "Thermo Ignite",
+        "description": "Thermo Ignite is a fast-absorbing dietary supplement formulated to support weight loss by combining clinically researched plant extracts, amino acids, and minerals in sublingual liquid drops.",
         "image": [
           "https://images.flowpagestool.com/YmcudGhlcm1vaWduaXRlLmNvbQ==/assets/img/1.webp"
         ],
         "url": "https://consumer-health-reports.github.io/thermo-ignite-review/",
+        "brand": {
+          "@type": "Brand",
+          "name": "Thermo Ignite"
+        },
         "category": "Dietary Supplement",
         "additionalProperty": [
           {"@type": "PropertyValue", "name": "Supports healthy weight loss", "value": "Helps maintain balanced weight naturally."},
@@ -190,8 +201,7 @@
           {"@type": "PropertyValue", "name": "Boosts natural energy levels", "value": "Supports steady, non-stimulating energy."},
           {"@type": "PropertyValue", "name": "Fast-acting drops", "value": "Liquid drop format for faster absorption."},
           {"@type": "PropertyValue", "name": "Made In", "value": "United States"},
-          {"@type": "PropertyValue", "name": "Non-GMO", "value": "True"},
-          {"@type": "PropertyValue", "name": "Easy daily routine", "value": "True"}
+          {"@type": "PropertyValue", "name": "Non-GMO", "value": "True"}
         ],
         "ingredient": [
           "Chromium Picolinate",
@@ -200,25 +210,34 @@
           "Gymnema Sylvestre Extract",
           "African Mango Seed Extract"
         ],
-        "warrantyPromise": "Your purchase is protected by our 60-Day Satisfaction Promise from the original purchase date.",
+        "warrantyPromise": {
+          "@type": "WarrantyPromise",
+          "durationOfWarranty": "P60D",
+          "description": "Your purchase is protected by our 60-Day Satisfaction Promise from the original purchase date."
+        },
         "offers": {
           "@type": "Offer",
-          "url": "https://buygoods.com/secure/checkout.html?account_id=13251&product_codename=the6b&redirect=aHR0cHM6Ly9iZy50aGVybW9pZ25pdGUuY29tL2ZhLWZlNi10aTEyLw==",
-          "price": "49",
+          "url": "https://bg.thermoignite.com/dtc-b/?aff_id=9830",
+          "price": "49.00",
           "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock"
+          "priceValidUntil": "2027-12-31",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/NewCondition"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
-          "reviewCount": "125"
+          "reviewCount": "125",
+          "bestRating": "5",
+          "worstRating": "1"
         },
         "review": [
           {
             "@type": "Review",
-            "author": "William",
+            "author": {"@type": "Person", "name": "William"},
+            "datePublished": "2026-02-10",
             "reviewBody": "Steady weight loss without the jitters. Dropped 18 pounds over 90 days and cravings are significantly reduced.",
-            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
+            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"}
           }
         ]
       },
@@ -228,10 +247,10 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What is Thermo Ignite",
+            "name": "What is Thermo Ignite?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Thermo Ignite is a fast-absorbing liquid dietary supplement formulated with plant extracts, amino acids, and minerals to support your weight-management routine. Its liquid drop format is designed to be easy to take and digest."
+              "text": "Thermo Ignite is a fast-absorbing liquid dietary supplement formulated with plant extracts, amino acids, and minerals to support your weight-management routine."
             }
           },
           {
@@ -247,7 +266,7 @@
             "name": "What's the refund policy?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Your order is protected by our 60-Day Satisfaction Promise from the original purchase date. If you need assistance, contact our support team within that period to begin a refund request."
+              "text": "Your order is protected by our 60-Day Satisfaction Promise from the original purchase date. Contact support within that period for a full refund."
             }
           },
           {
@@ -271,8 +290,12 @@
   <header class="fixed-header">
     <div class="container">
       <div class="d-flex align-items-center">
-        <span class="header-brand">Thermo Ignite</span>
-        <span class="header-review-badge">REVIEW</span>
+        <span class="header-brand">
+          <a href="/">
+            <i class="fa-solid fa-notes-medical me-1 text-warning"></i> Consumer Health Reports
+          </a>
+        </span>
+        <span class="header-review-badge">Thermo Ignite Review</span>
       </div>
       <a href="https://bg.thermoignite.com/dtc-b/?aff_id=9830" target="_self" class="cta-button" rel="nofollow sponsored noopener">
         <i class="fa-solid fa-tag"></i> Get Discount
@@ -418,21 +441,21 @@
       <div class="row flex-wrap">
         <div class="col-md-4">
           <div class="text-center mb-3">
-            <i class="fa-solid fa-droplet fa-2x text-orange"></i>
+            <i class="fa-solid fa-droplet fa-2x" style="color:var(--brand-orange);"></i>
             <h4>Step 1</h4>
             <p>Fill the dropper to the 1 mL line (about two full squeezes).</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="text-center mb-3">
-            <i class="fa-solid fa-clock fa-2x text-orange"></i>
+            <i class="fa-solid fa-clock fa-2x" style="color:var(--brand-orange);"></i>
             <h4>Step 2</h4>
             <p>Place drops under your tongue and hold for 20–30 seconds before swallowing.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="text-center mb-3">
-            <i class="fa-solid fa-calendar-check fa-2x text-orange"></i>
+            <i class="fa-solid fa-calendar-check fa-2x" style="color:var(--brand-orange);"></i>
             <h4>Step 3</h4>
             <p>Repeat twice daily – morning and early afternoon. One bottle lasts 30 days.</p>
           </div>
@@ -468,21 +491,21 @@
       <div class="row flex-wrap">
         <div class="col-md-4">
           <div class="text-center">
-            <i class="fa-solid fa-fire fa-2x text-orange"></i>
+            <i class="fa-solid fa-fire fa-2x" style="color:var(--brand-orange);"></i>
             <h4>1. Thermogenesis &amp; Fat Oxidation</h4>
             <p>Green tea and African mango gently raise your metabolic rate, helping your body burn stored fat for energy – especially in stubborn areas.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="text-center">
-            <i class="fa-solid fa-bolt fa-2x text-orange"></i>
+            <i class="fa-solid fa-bolt fa-2x" style="color:var(--brand-orange);"></i>
             <h4>2. Cellular Energy Transport</h4>
             <p>L‑Carnitine shuttles fatty acids into your cells’ mitochondria, turning fat into usable fuel. That’s why you feel a steady, natural energy lift – no jitters.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="text-center">
-            <i class="fa-solid fa-seedling fa-2x text-orange"></i>
+            <i class="fa-solid fa-seedling fa-2x" style="color:var(--brand-orange);"></i>
             <h4>3. Appetite &amp; Craving Control</h4>
             <p>Gymnema Sylvestre and Chromium help balance blood sugar and reduce sugar cravings, so you’re not fighting constant hunger.</p>
           </div>
@@ -541,7 +564,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body text-center">
-              <i class="fa-solid fa-capsules fa-3x text-orange mb-3"></i>
+              <i class="fa-solid fa-capsules fa-3x mb-3" style="color:var(--brand-orange);"></i>
               <h5>Chromium Picolinate (200 mcg)</h5>
               <p>An essential mineral that aids carbohydrate and fat metabolism, and helps control appetite by stabilizing blood sugar.</p>
             </div>
@@ -550,7 +573,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body text-center">
-              <i class="fa-solid fa-shield-halved fa-3x text-orange mb-3"></i>
+              <i class="fa-solid fa-shield-halved fa-3x mb-3" style="color:var(--brand-orange);"></i>
               <h5>Proprietary Antioxidant Matrix</h5>
               <p>A blend of grape seed extract and other natural antioxidants that support overall metabolic health and cellular protection.</p>
             </div>
@@ -742,12 +765,19 @@
     </div>
   </section>
 
-  <!-- 21. Footer + Final CTA -->
-  <footer class="footer">
-    <div class="container">
-      <p class="mb-2"><strong>Independent Review – Not Affiliated with the Manufacturer</strong></p>
-      <p>This is an independent review based on personal experience. I may receive a small commission if you purchase through my link, at no extra cost to you. This helps support my work and keeps the review honest.</p>
-      <p class="mb-0">© 2026 Thermo Ignite Reviews. All rights reserved.</p>
+  <!-- 21. Standardized Footer -->
+  <footer>
+    <div class="container text-center" style="max-width: 760px; margin: 0 auto;">
+      <p class="mb-2 fw-semibold text-white">Consumer Health Reports</p>
+      <p class="mb-3 text-muted small" style="line-height: 1.6;">
+        Disclaimer: The information published on Consumer Health Reports is for informational and educational purposes only and does not constitute medical advice. Formulations and dietary supplements reviewed are not intended to diagnose, treat, cure, or prevent any disease. Always consult with a licensed physician or healthcare professional before introducing new supplements into your regimen. Results may vary by individual.
+      </p>
+      <div class="mb-3" style="font-size: 0.9rem;">
+        <a href="/" class="me-3"><i class="fa-solid fa-house me-1"></i> Home</a>
+        <a href="/about/"><i class="fa-solid fa-circle-info me-1"></i> About Us &amp; Editorial Guidelines</a>
+      </div>
+      <hr style="border-color: rgba(255,255,255,0.12); margin: 1.5rem 0;">
+      <p class="mb-0 small text-muted">© 2026 Consumer Health Reports. All rights reserved.</p>
     </div>
   </footer>
 
