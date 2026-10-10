@@ -27,4 +27,11 @@
     <lastmod>2026-10-10</lastmod>
     <priority>0.9</priority>
   </url>
+
+  <!-- Relatório Thermo Ignite -->
+  <url>
+    <loc>https://consumer-health-reports.github.io/thermo-ignite-review/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.9</priority>
+  </url>
 </urlset>
