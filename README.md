@@ -8,7 +8,7 @@ Independent consumer research, ingredient safety evaluations, and evidence-based
 
 ---
 
-## Published Consumer Reports (Batch 1 - 7 Products)
+## Published Consumer Reports (Batch 1 & 2 - 8 Products)
 
 1. **[JointMend In-Depth Review 2026: Ingredients, Safety, and Results](https://consumer-health-reports.github.io/jointmend-review/)**  
    A comprehensive 90-day case review and formulation breakdown of JointMend. Evaluates Glucosamine, Boswellia Extract, Chondroitin Sulfate, and MSM for joint mobility and cartilage support.
@@ -30,6 +30,9 @@ Independent consumer research, ingredient safety evaluations, and evidence-based
 
 7. **[Military Honey Gummies Review 2026: Energy, Stamina & Male Vitality](https://consumer-health-reports.github.io/military-honey-review/)**  
    A 90-day evaluation of Military Honey performance gummies. Reviews L-Arginine, Beet Root Extract, Grape Seed, and herbal adaptogens for circulation and stamina.
+
+8. **[FloraNew Gut Health Review 2026: Cleanse Blend, Bloating & Regularity](https://consumer-health-reports.github.io/floranew-review/)**  
+   An independent 90-day evaluation of FloraNew delayed-release capsules. Analyzes the 695mg Proprietary Cleanse Blend, Psyllium Husk, Flax Seed, and Lactobacillus Acidophilus (1.5 Billion CFUs) for microbiome balance and digestive comfort.
 
 ---
 
