@@ -285,7 +285,7 @@
     }
     /* Standardized Footer */
     footer {
-      background: #0b1727;
+      background-color: #0b1727;
       color: #94a3b8;
       padding: 2.5rem 1rem;
       font-size: 0.85rem;
@@ -298,7 +298,9 @@
       text-decoration: underline;
       color: #fff;
     }
+    /* Responsive */
     @media (max-width: 767px) {
+      section { padding: 32px 12px; }
       .section-title { font-size: 1.35rem; }
       .score-big { font-size: 3rem; }
       .fixed-header .header-brand { font-size: 0.85rem; }
@@ -306,6 +308,12 @@
       .fixed-header .review-badge { font-size: 0.62rem; padding: 2px 6px; }
       .cta-btn-lg { font-size: 1rem; padding: 14px 28px; }
       .review-card, .review-card-alt { padding: 20px 16px; }
+    }
+    @media (max-width: 400px) {
+      .fixed-header { padding: 0 8px; }
+      .fixed-header .header-brand { font-size: 0.75rem; gap: 4px; }
+      .fixed-header .header-cta { font-size: 0.68rem; padding: 5px 10px; }
+      .fixed-header .review-badge { font-size: 0.58rem; padding: 2px 5px; }
     }
   </style>
   <style id="fp-media-guard">@media (max-width:480px){img,video,iframe{max-width:100% !important;}}</style>
@@ -455,7 +463,7 @@
     <div class="container" style="max-width:860px;">
       <h2 class="section-title">Meet the Reviewer</h2>
       <div class="ugc-highlight d-flex flex-wrap align-items-center gap-4">
-        <img src="https://images.flowpagestool.com/Ymcuam9pbnRtZW5kLnN0b3Jl/ugc-persons/1791645603670.jpg" alt="Bill Henderson holding Military Honey in his workshop" class="rounded-3 shadow-sm" style="width:100%;max-width:220px;height:auto;object-fit:cover;flex-shrink:0;" loading="eager">
+        <img src="bill_henderson.png" alt="Bill Henderson holding Military Honey in his workshop" class="rounded-3 shadow-sm" style="width:100%;max-width:220px;height:auto;object-fit:cover;flex-shrink:0;" loading="eager">
         <div style="min-width:0;flex:1;">
           <p style="font-weight:700;font-size:1.2rem;margin-bottom:4px;color:var(--brand-green-dark);">Bill Henderson</p>
           <p style="margin-bottom:4px;color:var(--text-medium);"><i class="fa-solid fa-location-dot me-1" style="color:#b08060;"></i> Branson, Missouri</p>
@@ -485,7 +493,7 @@
       <h2 class="section-title">The Product I Actually Used</h2>
       <div class="row flex-wrap align-items-center g-4">
         <div class="col-md-6" style="min-width:0;">
-          <img src="https://images.flowpagestool.com/Ymcuam9pbnRtZW5kLnN0b3Jl/ugc-persons/1791645603670.jpg" alt="Bill Henderson holding a bottle of Military Honey gummies in his woodworking shop" class="img-fluid rounded-3 shadow-md" style="max-width:100%;height:auto;" loading="lazy">
+          <img src="bill_henderson.png" alt="Bill Henderson holding a bottle of Military Honey gummies in his woodworking shop" class="img-fluid rounded-3 shadow-md" style="max-width:100%;height:auto;" loading="lazy">
           <p class="text-muted mt-2" style="font-size:0.82rem;text-align:left;"><i class="fa-solid fa-camera me-1"></i> That's me in my workshop with the actual bottle I used for 90 days. No studio lighting, no filters — just real life.</p>
         </div>
         <div class="col-md-6" style="min-width:0;">
