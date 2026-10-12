@@ -16,7 +16,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Product 1: JointMend -->
+  <!-- Product 1: Joint Mend -->
   <url>
     <loc>https://consumer-health-reports.github.io/jointmend-review/</loc>
     <lastmod>2026-10-12</lastmod>
@@ -99,6 +99,14 @@
   <!-- Product 11: Arthryon -->
   <url>
     <loc>https://consumer-health-reports.github.io/arthryon-review/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Product 12: VisiumPro -->
+  <url>
+    <loc>https://consumer-health-reports.github.io/visiumpro-review/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
