@@ -1,6 +1,6 @@
 # Consumer Health Reports 🏥
 
-Independent dietary supplement and consumer wellness reviews published for 2026. This repository hosts clinical breakdowns, 90-day testing reports, and verified product analyses across digestive health, prostate wellness, auditory function, and metabolic support.
+Independent dietary supplement and consumer wellness reviews published for 2026. This repository hosts clinical breakdowns, 90-day testing reports, and verified product analyses across digestive health, prostate wellness, auditory function, metabolic support, and topical joint relief.
 
 ---
 
@@ -18,6 +18,7 @@ Independent dietary supplement and consumer wellness reviews published for 2026.
 | 8 | [LeanBiome Review](/leanbiome-review/) | Weight Management & Gut Flora | *Lactobacillus Gasseri*, Inulin, Greenselect Phytosome | 180 Days |
 | 9 | [SynoGut Review](/synogut-review/) | Digestive Regularity | Psyllium, Bentonite Clay, Black Walnut, Flaxseed | 60 Days |
 | 10 | [AudiLeaf Review](/audileaf-review/) | Inner Ear Health & Sound Clarity | Maca Root, Grape Seed, GABA, Green Tea (200mg Blend) | 60 Days |
+| 11 | [Arthryon Review](/arthryon-review/) | Topical Joint & Muscle Pain Relief | Arnica Montana Oil, Hyaluronic Acid, Tea Tree Oil | 30 Days |
 
 ---
 
@@ -26,7 +27,7 @@ Independent dietary supplement and consumer wellness reviews published for 2026.
 Each product review published under the **Consumer Health Reports** portal adheres to our 21-section evaluation framework:
 * **90-Day Real-World Protocols:** Documented user case studies tracking day-to-day progression and usability.
 * **Proprietary Formula Deconstruction:** Verification of active botanical extracts, dosages, and third-party laboratory certifications.
-* **Compliance & Safety Checks:** Clear distinction between nutritional support and medical treatment; strict identification of contraindications.
+* **Compliance & Safety Checks:** Clear distinction between nutritional/topical support and medical treatment; strict identification of contraindications.
 * **Marketplace Verification (Anti-Scam):** Warning consumers against unauthorized third-party resellers on Amazon, eBay, and Walmart to ensure money-back guarantee protection.
 
 ---
