@@ -95,4 +95,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- Product 11: Arthryon -->
+  <url>
+    <loc>https://consumer-health-reports.github.io/arthryon-review/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
