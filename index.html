@@ -32,6 +32,7 @@
       color: var(--text-dark);
       background-color: var(--bg-light);
       line-height: 1.6;
+      scroll-behavior: smooth;
     }
     .header-nav {
       background: #0b1727;
@@ -58,7 +59,7 @@
     .hero-header {
       background: linear-gradient(135deg, var(--primary-navy) 0%, #1a365d 100%);
       color: white;
-      padding: 4rem 1rem 3.25rem;
+      padding: 3.5rem 1rem 2.5rem;
       text-align: center;
     }
     .hero-header h1 {
@@ -84,6 +85,40 @@
       background-color: rgba(255, 255, 255, 0.22);
       color: #fff;
     }
+    /* Category Quick Navigation Bar */
+    .category-nav-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--card-border);
+      padding: 0.75rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1020;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    }
+    .category-nav-bar .nav-scroller {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 2px;
+      justify-content: center;
+    }
+    .cat-pill {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-dark);
+      background: var(--bg-light);
+      border: 1px solid var(--card-border);
+      padding: 0.35rem 0.85rem;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .cat-pill:hover, .cat-pill.active {
+      background: var(--accent-blue);
+      color: #fff;
+      border-color: var(--accent-blue);
+    }
     .pillar-card {
       background: #fff;
       border: 1px solid var(--card-border);
@@ -91,11 +126,6 @@
       padding: 1.25rem 1rem;
       height: 100%;
       text-align: center;
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .pillar-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
     .report-card {
       background: white;
@@ -125,8 +155,8 @@
       letter-spacing: 0.05em;
       margin-bottom: 0.5rem;
     }
-    .report-card h2 {
-      font-size: 1.22rem;
+    .report-card h3 {
+      font-size: 1.18rem;
       font-weight: 700;
       margin-bottom: 0.75rem;
       color: var(--primary-navy);
@@ -149,6 +179,17 @@
     .btn-read:hover {
       color: var(--primary-navy);
       text-decoration: underline;
+    }
+    .category-section-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--primary-navy);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      border-left: 4px solid var(--accent-blue);
+      padding-left: 0.75rem;
     }
     footer {
       background: #0b1727;
@@ -182,7 +223,7 @@
       {
         "@type": "ItemList",
         "@id": "https://consumer-health-reports.github.io/#itemlist",
-        "name": "Latest Published Consumer Health Reports",
+        "name": "Consumer Health Reports by Category",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -193,74 +234,74 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Quiet Nerves Review 2026",
-            "url": "https://consumer-health-reports.github.io/quiet-nerves-review/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "FlowStrong Prostate Review 2026",
-            "url": "https://consumer-health-reports.github.io/flow-strong-review/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Thermo Ignite Drops Review 2026",
-            "url": "https://consumer-health-reports.github.io/thermo-ignite-review/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 5,
-            "name": "Glyco Barrier Liquid Review 2026",
-            "url": "https://consumer-health-reports.github.io/glyco-barrier-review/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 6,
-            "name": "MindWake Cognitive Review 2026",
-            "url": "https://consumer-health-reports.github.io/mind-wake-review/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 7,
-            "name": "Military Honey Gummies Review 2026",
-            "url": "https://consumer-health-reports.github.io/military-honey-review/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 8,
-            "name": "FloraNew Cleanse Blend Review 2026",
-            "url": "https://consumer-health-reports.github.io/floranew-review/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 9,
-            "name": "ProstaFense Review 2026",
-            "url": "https://consumer-health-reports.github.io/prostafense-review/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 10,
-            "name": "AudiLeaf Review 2026",
-            "url": "https://consumer-health-reports.github.io/audileaf-review/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 11,
             "name": "Arthryon Pain Relief Cream Review 2026",
             "url": "https://consumer-health-reports.github.io/arthryon-review/"
           },
           {
             "@type": "ListItem",
+            "position": 3,
+            "name": "Quiet Nerves Review 2026",
+            "url": "https://consumer-health-reports.github.io/quiet-nerves-review/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "AudiLeaf Review 2026",
+            "url": "https://consumer-health-reports.github.io/audileaf-review/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "NervoLyn Nerve Support Review 2026",
+            "url": "https://consumer-health-reports.github.io/nervolyn-review/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "FlowStrong Prostate Review 2026",
+            "url": "https://consumer-health-reports.github.io/flow-strong-review/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "ProstaFense Review 2026",
+            "url": "https://consumer-health-reports.github.io/prostafense-review/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Thermo Ignite Drops Review 2026",
+            "url": "https://consumer-health-reports.github.io/thermo-ignite-review/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Glyco Barrier Liquid Review 2026",
+            "url": "https://consumer-health-reports.github.io/glyco-barrier-review/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "FloraNew Cleanse Blend Review 2026",
+            "url": "https://consumer-health-reports.github.io/floranew-review/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "MindWake Cognitive Review 2026",
+            "url": "https://consumer-health-reports.github.io/mind-wake-review/"
+          },
+          {
+            "@type": "ListItem",
             "position": 12,
-            "name": "VisiumPro Vision Support Review 2026",
-            "url": "https://consumer-health-reports.github.io/visiumpro-review/"
+            "name": "Military Honey Gummies Review 2026",
+            "url": "https://consumer-health-reports.github.io/military-honey-review/"
           },
           {
             "@type": "ListItem",
             "position": 13,
-            "name": "NervoLyn Nerve Support Review 2026",
-            "url": "https://consumer-health-reports.github.io/nervolyn-review/"
+            "name": "VisiumPro Vision Support Review 2026",
+            "url": "https://consumer-health-reports.github.io/visiumpro-review/"
           }
         ]
       }
@@ -291,11 +332,28 @@
         <i class="fa-solid fa-microscope me-2"></i> Independent Consumer Research • Read Our Guidelines <i class="fa-solid fa-arrow-right ms-1 small"></i>
       </a>
       <h1>Consumer Health Reports</h1>
-      <p class="lead mt-3 mb-0" style="color: #cbd5e1; font-size: 1.15rem;">
+      <p class="lead mt-2 mb-2" style="color: #cbd5e1; font-size: 1.15rem;">
         Evidence-based evaluations, formulation analyses, and safety reviews of dietary supplements and wellness products.
+      </p>
+      <p class="small mb-0" style="color: #94a3b8;">
+        <i class="fa-regular fa-clock me-1"></i> Updated for October 2026 &nbsp;|&nbsp; 
+        <i class="fa-solid fa-user-shield me-1"></i> Verified Independent Research
       </p>
     </div>
   </header>
+
+  <!-- Category Quick Jump Navigation Bar -->
+  <div class="category-nav-bar">
+    <div class="container" style="max-width: 1140px;">
+      <div class="nav-scroller">
+        <a href="#cat-joint" class="cat-pill"><i class="fa-solid fa-bone me-1"></i> Joint &amp; Mobility</a>
+        <a href="#cat-nerve" class="cat-pill"><i class="fa-solid fa-bolt me-1"></i> Neuropathy &amp; Auditory</a>
+        <a href="#cat-mens" class="cat-pill"><i class="fa-solid fa-mars me-1"></i> Men's Health &amp; Prostate</a>
+        <a href="#cat-metabolic" class="cat-pill"><i class="fa-solid fa-fire me-1"></i> Metabolism, Glucose &amp; Digestion</a>
+        <a href="#cat-cognitive" class="cat-pill"><i class="fa-solid fa-brain me-1"></i> Cognitive, Vision &amp; Vitality</a>
+      </div>
+    </div>
+  </div>
 
   <!-- Editorial Pillars (E-E-A-T Signal) -->
   <section class="container my-4" style="max-width: 1140px;">
@@ -324,250 +382,223 @@
     </div>
   </section>
 
-  <!-- Reports Listing Section -->
+  <!-- Categorized Reports Listing Section -->
   <main class="container my-5" style="max-width: 1140px;">
-    <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
-      <h3 class="fw-bold mb-0" style="color: var(--primary-navy); font-size: 1.35rem;">
-        <i class="fa-regular fa-newspaper me-2"></i>Latest Published Reports
-      </h3>
-      <span class="text-muted small">Updated: October 2026</span>
-    </div>
 
-    <div class="row g-4">
-      <!-- Report 1: Joint Mend -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-bone me-1"></i> Joint &amp; Connective Tissue</div>
-            <h2>Joint Mend Review (2026): Clinical Formula, Safety, and Results</h2>
-            <p>
-              A 90-day comprehensive investigation into Joint Mend. Analyzing Glucosamine, Boswellia, Chondroitin, MSM, and third-party manufacturing standards.
-            </p>
-            <div class="mt-auto">
-              <a href="/jointmend-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
+    <!-- CATEGORY 1: Joint & Mobility -->
+    <div id="cat-joint" class="mb-5 pt-3">
+      <h2 class="category-section-title">
+        <i class="fa-solid fa-bone"></i> Joint, Mobility &amp; Topical Relief
+      </h2>
+      <div class="row g-4">
+        <!-- Joint Mend -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-bone me-1"></i> Joint &amp; Connective Tissue</div>
+              <h3>Joint Mend Review (2026): Clinical Formula, Safety, and Results</h3>
+              <p>A 90-day comprehensive investigation into Joint Mend. Analyzing Glucosamine, Boswellia, Chondroitin, MSM, and third-party manufacturing standards.</p>
+              <div class="mt-auto">
+                <a href="/jointmend-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
             </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 2: Quiet Nerves -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-heart-pulse me-1"></i> Neuropathy &amp; Nerve Health</div>
-            <h2>Quiet Nerves Breakdown (2026): Formula, Science, and Consumer Guide</h2>
-            <p>
-              An independent evaluation of Quiet Nerves for peripheral discomfort. Evaluating Magnesium Glycinate, Alpha Lipoic Acid, and herbal bioactives.
-            </p>
-            <div class="mt-auto">
-              <a href="/quiet-nerves-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
+          </article>
+        </div>
+        <!-- Arthryon -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-hand-dots me-1"></i> Topical Joint Relief</div>
+              <h3>Arthryon Pain Relief Cream Review (2026): Botanical Heat Formula &amp; Results</h3>
+              <p>A 90-day investigation into Arthryon Arthritis Heat Relief Cream. Analyzing Arnica Montana Oil, Hyaluronic Acid, Tea Tree Essential Oil, and fast topical soothing.</p>
+              <div class="mt-auto">
+                <a href="/arthryon-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
             </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 3: FlowStrong -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-person me-1"></i> Men's Health &amp; Prostate</div>
-            <h2>FlowStrong Prostate Review (2026): Ingredients, Flow &amp; Safety</h2>
-            <p>
-              A 90-day case study on FlowStrong. Examining Saw Palmetto, Pumpkin Seed, Pygeum Africanum, Lycopene, and nighttime urinary comfort.
-            </p>
-            <div class="mt-auto">
-              <a href="/flow-strong-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 4: Thermo Ignite -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-fire me-1"></i> Weight Management &amp; Metabolism</div>
-            <h2>Thermo Ignite Drops Review (2026): Formula Breakdown &amp; Results</h2>
-            <p>
-              A 90-day personal review of Thermo Ignite sublingual drops. Analyzing L-Carnitine, Green Tea EGCG, Gymnema Sylvestre, and appetite support.
-            </p>
-            <div class="mt-auto">
-              <a href="/thermo-ignite-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 5: Glyco Barrier -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-droplet me-1"></i> Blood Sugar &amp; Glucose</div>
-            <h2>Glyco Barrier Drops Review (2026): Clinical Formula &amp; Results</h2>
-            <p>
-              A 90-day evaluation of Glyco Barrier liquid formula. Examining Chromium Picolinate, Gymnema Sylvestre, Coleus Forskohlii, and glucose balance.
-            </p>
-            <div class="mt-auto">
-              <a href="/glyco-barrier-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 6: MindWake -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-brain me-1"></i> Cognitive Health &amp; Memory</div>
-            <h2>MindWake Review (2026): Formula, Nootropics &amp; Brain Health</h2>
-            <p>
-              A 90-day evaluation of MindWake cognitive support capsules. Examining Ginkgo Biloba, Phosphatidylserine, Bacopa Monnieri, and Alpha GPC for mental clarity.
-            </p>
-            <div class="mt-auto">
-              <a href="/mind-wake-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 7: Military Honey -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-bolt me-1"></i> Male Vitality &amp; Stamina</div>
-            <h2>Military Honey Review (2026): Gummies, Energy &amp; Performance</h2>
-            <p>
-              A 90-day review of Military Honey chewable formula. Examining L-Arginine, Beet Root Extract, Grape Seed, and herbal adaptogens for daily male stamina.
-            </p>
-            <div class="mt-auto">
-              <a href="/military-honey-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 8: FloraNew -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-bacteria me-1"></i> Gut Health &amp; Digestion</div>
-            <h2>FloraNew Review (2026): Cleanse Blend, Bloating &amp; Gut Balance</h2>
-            <p>
-              A 90-day evaluation of FloraNew delayed-release capsules. Examining the 695mg Cleanse Blend, Psyllium Husk, Flax Seed, and Lactobacillus Acidophilus for digestion and regularity.
-            </p>
-            <div class="mt-auto">
-              <a href="/floranew-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 9: ProstaFense -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-mars me-1"></i> Advanced Prostate &amp; Nocturia Support</div>
-            <h2>ProstaFense Review (2026): Clinical Formula, Flow &amp; Sleep Results</h2>
-            <p>
-              A 90-day investigation into ProstaFense. Examining the 400mg Prostate Support Blend, 10:1 Saw Palmetto, Pygeum Africanum, Plant Sterol Beta-Sitosterols, and nighttime bathroom relief.
-            </p>
-            <div class="mt-auto">
-              <a href="/prostafense-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 10: AudiLeaf -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-ear-listen me-1"></i> Ear Health &amp; Sound Clarity</div>
-            <h2>AudiLeaf Review (2026): Herbal Blend, Nerve Support &amp; Clarity Results</h2>
-            <p>
-              A 90-day evaluation of AudiLeaf liquid dropper formula. Examining the 200mg herbal matrix, Grape Seed Extract, GABA, Maca Root, and inner ear microcirculation support.
-            </p>
-            <div class="mt-auto">
-              <a href="/audileaf-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 11: Arthryon -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-hand-dots me-1"></i> Topical Joint &amp; Muscle Relief</div>
-            <h2>Arthryon Pain Relief Cream Review (2026): Botanical Heat Formula &amp; Results</h2>
-            <p>
-              A 90-day investigation into Arthryon Arthritis Heat Relief Cream. Analyzing Arnica Montana Oil, Hyaluronic Acid, Tea Tree Essential Oil, and fast topical soothing for stiff joints.
-            </p>
-            <div class="mt-auto">
-              <a href="/arthryon-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 12: VisiumPro -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-eye me-1"></i> Advanced Vision Support</div>
-            <h2>VisiumPro Review (2026): Formula, Eye Strain &amp; Clarity Results</h2>
-            <p>
-              A 90-day evaluation of VisiumPro vision support capsules. Analyzing Marigold Lutein, Zeaxanthin, Bilberry Fruit Extract, Astaxanthin, and digital eye strain relief.
-            </p>
-            <div class="mt-auto">
-              <a href="/visiumpro-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <!-- Report 13: NervoLyn -->
-      <div class="col-md-6 col-lg-4">
-        <article class="report-card">
-          <div class="card-body">
-            <div class="tag-category"><i class="fa-solid fa-bolt me-1"></i> Advanced Nerve &amp; Circulation Support</div>
-            <h2>NervoLyn Review (2026): Formula, Nerve Comfort &amp; Results</h2>
-            <p>
-              A 90-day independent evaluation of NervoLyn nerve support capsules. Analyzing Magnesium Glycinate, Alpha Lipoic Acid, Butcher's Broom, and circulation support.
-            </p>
-            <div class="mt-auto">
-              <a href="/nervolyn-review/" class="btn-read">
-                Read Complete Report <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </article>
+          </article>
+        </div>
       </div>
     </div>
+
+    <!-- CATEGORY 2: Neuropathy & Auditory -->
+    <div id="cat-nerve" class="mb-5 pt-3">
+      <h2 class="category-section-title">
+        <i class="fa-solid fa-bolt"></i> Neuropathy, Nervous System &amp; Hearing
+      </h2>
+      <div class="row g-4">
+        <!-- Quiet Nerves -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-heart-pulse me-1"></i> Neuropathy &amp; Nerve Health</div>
+              <h3>Quiet Nerves Breakdown (2026): Formula, Science, and Consumer Guide</h3>
+              <p>An independent evaluation of Quiet Nerves for peripheral discomfort. Evaluating Magnesium Glycinate, Alpha Lipoic Acid, and herbal bioactives.</p>
+              <div class="mt-auto">
+                <a href="/quiet-nerves-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- AudiLeaf -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-ear-listen me-1"></i> Ear Health &amp; Sound Clarity</div>
+              <h3>AudiLeaf Review (2026): Herbal Blend, Nerve Support &amp; Clarity Results</h3>
+              <p>A 90-day evaluation of AudiLeaf liquid dropper formula. Examining the 200mg herbal matrix, Grape Seed Extract, GABA, Maca Root, and inner ear microcirculation.</p>
+              <div class="mt-auto">
+                <a href="/audileaf-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- NervoLyn -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-bolt me-1"></i> Advanced Nerve Support</div>
+              <h3>NervoLyn Review (2026): Formula, Nerve Comfort &amp; Results</h3>
+              <p>A 90-day independent evaluation of NervoLyn nerve support capsules. Analyzing Magnesium Glycinate, Alpha Lipoic Acid, Butcher's Broom, and circulation support.</p>
+              <div class="mt-auto">
+                <a href="/nervolyn-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- CATEGORY 3: Men's Health & Prostate -->
+    <div id="cat-mens" class="mb-5 pt-3">
+      <h2 class="category-section-title">
+        <i class="fa-solid fa-mars"></i> Men's Health &amp; Prostate
+      </h2>
+      <div class="row g-4">
+        <!-- FlowStrong -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-person me-1"></i> Men's Health &amp; Prostate</div>
+              <h3>FlowStrong Prostate Review (2026): Ingredients, Flow &amp; Safety</h3>
+              <p>A 90-day case study on FlowStrong. Examining Saw Palmetto, Pumpkin Seed, Pygeum Africanum, Lycopene, and nighttime urinary comfort.</p>
+              <div class="mt-auto">
+                <a href="/flow-strong-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- ProstaFense -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-mars me-1"></i> Advanced Prostate Support</div>
+              <h3>ProstaFense Review (2026): Clinical Formula, Flow &amp; Sleep Results</h3>
+              <p>A 90-day investigation into ProstaFense. Examining the 400mg Prostate Support Blend, 10:1 Saw Palmetto, Pygeum Africanum, and nighttime bathroom relief.</p>
+              <div class="mt-auto">
+                <a href="/prostafense-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- CATEGORY 4: Metabolism, Glucose & Digestion -->
+    <div id="cat-metabolic" class="mb-5 pt-3">
+      <h2 class="category-section-title">
+        <i class="fa-solid fa-fire"></i> Metabolism, Glucose &amp; Digestion
+      </h2>
+      <div class="row g-4">
+        <!-- Thermo Ignite -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-fire me-1"></i> Weight Management</div>
+              <h3>Thermo Ignite Drops Review (2026): Formula Breakdown &amp; Results</h3>
+              <p>A 90-day personal review of Thermo Ignite sublingual drops. Analyzing L-Carnitine, Green Tea EGCG, Gymnema Sylvestre, and appetite support.</p>
+              <div class="mt-auto">
+                <a href="/thermo-ignite-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- Glyco Barrier -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-droplet me-1"></i> Blood Sugar &amp; Glucose</div>
+              <h3>Glyco Barrier Drops Review (2026): Clinical Formula &amp; Results</h3>
+              <p>A 90-day evaluation of Glyco Barrier liquid formula. Examining Chromium Picolinate, Gymnema Sylvestre, Coleus Forskohlii, and glucose balance.</p>
+              <div class="mt-auto">
+                <a href="/glyco-barrier-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- FloraNew -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-bacteria me-1"></i> Gut Health &amp; Digestion</div>
+              <h3>FloraNew Review (2026): Cleanse Blend, Bloating &amp; Gut Balance</h3>
+              <p>A 90-day evaluation of FloraNew delayed-release capsules. Examining the 695mg Cleanse Blend, Psyllium Husk, Flax Seed, and Lactobacillus Acidophilus.</p>
+              <div class="mt-auto">
+                <a href="/floranew-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- CATEGORY 5: Cognitive, Vision & Vitality -->
+    <div id="cat-cognitive" class="mb-5 pt-3">
+      <h2 class="category-section-title">
+        <i class="fa-solid fa-brain"></i> Cognitive, Vision &amp; Vitality
+      </h2>
+      <div class="row g-4">
+        <!-- MindWake -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-brain me-1"></i> Cognitive Health</div>
+              <h3>MindWake Review (2026): Formula, Nootropics &amp; Brain Health</h3>
+              <p>A 90-day evaluation of MindWake cognitive support capsules. Examining Ginkgo Biloba, Phosphatidylserine, Bacopa Monnieri, and Alpha GPC for mental clarity.</p>
+              <div class="mt-auto">
+                <a href="/mind-wake-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- Military Honey -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-bolt me-1"></i> Male Vitality</div>
+              <h3>Military Honey Review (2026): Gummies, Energy &amp; Performance</h3>
+              <p>A 90-day review of Military Honey chewable formula. Examining L-Arginine, Beet Root Extract, Grape Seed, and herbal adaptogens for daily male stamina.</p>
+              <div class="mt-auto">
+                <a href="/military-honey-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- VisiumPro -->
+        <div class="col-md-6 col-lg-4">
+          <article class="report-card">
+            <div class="card-body">
+              <div class="tag-category"><i class="fa-solid fa-eye me-1"></i> Advanced Vision Support</div>
+              <h3>VisiumPro Review (2026): Formula, Eye Strain &amp; Clarity Results</h3>
+              <p>A 90-day evaluation of VisiumPro vision support capsules. Analyzing Marigold Lutein, Zeaxanthin, Bilberry Fruit Extract, Astaxanthin, and digital eye strain relief.</p>
+              <div class="mt-auto">
+                <a href="/visiumpro-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <!-- Standardized Footer -->
