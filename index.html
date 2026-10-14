@@ -100,8 +100,16 @@
       gap: 0.5rem;
       overflow-x: auto;
       white-space: nowrap;
-      padding-bottom: 2px;
-      justify-content: center;
+      padding: 0 1rem 6px 1rem;
+      justify-content: flex-start;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+    }
+    @media (min-width: 992px) {
+      .category-nav-bar .nav-scroller {
+        justify-content: center;
+        padding: 0 0 2px 0;
+      }
     }
     .cat-pill {
       font-size: 0.82rem;
@@ -113,6 +121,7 @@
       border-radius: 50px;
       text-decoration: none;
       transition: all 0.2s;
+      flex-shrink: 0;
     }
     .cat-pill:hover, .cat-pill.active {
       background: var(--accent-blue);
@@ -608,7 +617,7 @@
             <div class="card-body">
               <div class="tag-category"><i class="fa-solid fa-eye me-1"></i> Advanced Vision Support</div>
               <h3>VisiumPro Review (2026): Formula, Eye Strain &amp; Clarity Results</h3>
-              <p>A 90-day evaluation of VisiumPro vision support capsules. Analyzing Marigold Lutein, Zeaxanthin, Bilberry Fruit Extract, Astaxanthin, and digital eye strain relief.</p>
+              <p>A 90-day evaluation of VisiumPro vision support capsules. Examining Marigold Lutein, Zeaxanthin, Bilberry Fruit Extract, Astaxanthin, and digital eye strain relief.</p>
               <div class="mt-auto">
                 <a href="/visiumpro-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
               </div>
