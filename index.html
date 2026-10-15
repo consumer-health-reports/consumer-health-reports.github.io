@@ -85,48 +85,34 @@
       background-color: rgba(255, 255, 255, 0.22);
       color: #fff;
     }
-    /* Category Quick Navigation Bar */
-    .category-nav-bar {
+    /* Category Grid Quick Navigation Section */
+    .category-grid-section {
       background: #fff;
       border-bottom: 1px solid var(--card-border);
-      padding: 0.75rem 0;
-      position: sticky;
-      top: 0;
-      z-index: 1020;
+      padding: 2rem 0;
       box-shadow: 0 2px 4px rgba(0,0,0,0.02);
     }
-    .category-nav-bar .nav-scroller {
-      display: flex;
-      gap: 0.5rem;
-      overflow-x: auto;
-      white-space: nowrap;
-      padding: 0 1rem 6px 1rem;
-      justify-content: flex-start;
-      -webkit-overflow-scrolling: touch;
-      scrollbar-width: thin;
-    }
-    @media (min-width: 992px) {
-      .category-nav-bar .nav-scroller {
-        justify-content: center;
-        padding: 0 0 2px 0;
-      }
-    }
-    .cat-pill {
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: var(--text-dark);
+    .category-box {
       background: var(--bg-light);
       border: 1px solid var(--card-border);
-      padding: 0.35rem 0.85rem;
-      border-radius: 50px;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
       text-decoration: none;
-      transition: all 0.2s;
-      flex-shrink: 0;
+      color: var(--text-dark);
+      display: block;
+      transition: all 0.2s ease;
+      height: 100%;
     }
-    .cat-pill:hover, .cat-pill.active {
+    .category-box:hover {
       background: var(--accent-blue);
       color: #fff;
       border-color: var(--accent-blue);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(29, 112, 184, 0.15);
+    }
+    .category-box:hover i, .category-box:hover span {
+      color: #fff !important;
     }
     .pillar-card {
       background: #fff;
@@ -322,7 +308,7 @@
             "@type": "ListItem",
             "position": 15,
             "name": "BreathEaseX + CardioEaseX Review 2026",
-            "url": "https://consumer-health-reports.github.io/breathease-review/"
+            "url": "https://consumer-health-reports.github.io/breatheasex-review/"
           }
         ]
       }
@@ -363,16 +349,47 @@
     </div>
   </header>
 
-  <!-- Category Quick Jump Navigation Bar -->
-  <div class="category-nav-bar">
+  <!-- Category Grid Quick Navigation Section -->
+  <div class="category-grid-section">
     <div class="container" style="max-width: 1140px;">
-      <div class="nav-scroller">
-        <a href="#cat-joint" class="cat-pill"><i class="fa-solid fa-bone me-1"></i> Joint &amp; Mobility</a>
-        <a href="#cat-nerve" class="cat-pill"><i class="fa-solid fa-bolt me-1"></i> Neuropathy &amp; Auditory</a>
-        <a href="#cat-mens" class="cat-pill"><i class="fa-solid fa-mars me-1"></i> Men's Health &amp; Prostate</a>
-        <a href="#cat-metabolic" class="cat-pill"><i class="fa-solid fa-fire me-1"></i> Metabolism, Glucose &amp; Digestion</a>
-        <a href="#cat-respiratory" class="cat-pill"><i class="fa-solid fa-lungs me-1"></i> Respiratory &amp; Cardio</a>
-        <a href="#cat-cognitive" class="cat-pill"><i class="fa-solid fa-brain me-1"></i> Cognitive, Vision &amp; Vitality</a>
+      <p class="text-uppercase text-muted fw-bold small text-center mb-3" style="letter-spacing: 1px;">Browse Research By Health Category</p>
+      <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="#cat-joint" class="category-box">
+            <i class="fa-solid fa-bone text-primary mb-2 fs-4"></i>
+            <span class="d-block small fw-bold">Joint &amp; Mobility</span>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="#cat-nerve" class="category-box">
+            <i class="fa-solid fa-bolt text-warning mb-2 fs-4"></i>
+            <span class="d-block small fw-bold">Nerve &amp; Hearing</span>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="#cat-mens" class="category-box">
+            <i class="fa-solid fa-mars text-info mb-2 fs-4"></i>
+            <span class="d-block small fw-bold">Men's Health</span>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="#cat-metabolic" class="category-box">
+            <i class="fa-solid fa-fire text-danger mb-2 fs-4"></i>
+            <span class="d-block small fw-bold">Metabolism &amp; Gut</span>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="#cat-respiratory" class="category-box">
+            <i class="fa-solid fa-lungs text-success mb-2 fs-4"></i>
+            <span class="d-block small fw-bold">Respiratory &amp; Cardio</span>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="#cat-cognitive" class="category-box">
+            <i class="fa-solid fa-brain text-secondary mb-2 fs-4"></i>
+            <span class="d-block small fw-bold">Brain, Vision &amp; Vitality</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -600,7 +617,7 @@
               <h3>BreathEaseX + CardioEaseX Reviews 2026: Dual Lung &amp; Heart Support</h3>
               <p>A 90-day independent evaluation of the BreathEaseX spray and CardioEaseX capsule kit. Analyzing NAC, Manuka Honey, CoQ10, and oxygen delivery.</p>
               <div class="mt-auto">
-                <a href="/breathease-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="/breatheasex-review/" class="btn-read">Read Complete Report <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </article>
