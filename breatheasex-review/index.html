@@ -122,11 +122,16 @@
     section h3 { font-weight: 600; font-size: 1.25rem; margin-bottom: 0.75rem; color: var(--text-secondary); }
     section h4 { font-weight: 600; font-size: 1.05rem; color: var(--text-secondary); }
     /* Cards */
-    .card-custom { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow: hidden; height: 100%; transition: box-shadow 0.2s; display: flex; flex-direction: column; }
+    .card-custom { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow: hidden; height: 100%; transition: box-shadow 0.2s; }
     .card-custom:hover { box-shadow: var(--shadow); }
-    .card-custom .card-body { padding: 20px 22px; flex-grow: 1; display: flex; flex-direction: column; }
+    .card-custom .card-body { padding: 20px 22px; }
     .card-highlight { border: 2px solid var(--accent); box-shadow: var(--shadow-lg); position: relative; }
     .card-highlight::before { content: 'BEST VALUE'; position: absolute; top: 12px; right: -2px; background: var(--accent); color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.8px; padding: 5px 16px; border-radius: 20px 0 0 20px; z-index: 2; }
+    
+    /* Package cards specific alignment helper */
+    #packages .card-custom { display: flex; flex-direction: column; }
+    #packages .card-custom .card-body { flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-align: center; }
+
     /* Scorecard */
     .score-big { font-size: 3.5rem; font-weight: 800; color: var(--primary); line-height: 1; letter-spacing: -1px; }
     .score-stars { color: #f5a623; font-size: 1.1rem; }
@@ -683,36 +688,48 @@
         <!-- 1 Bottle / Try Two -->
         <div class="col-md-4" style="min-width:0;">
           <div class="card-custom h-100">
-            <div class="card-body text-center">
-              <img src="2b.webp" alt="Try Two Bundle" class="img-fluid mb-3" style="max-width:160px;width:100%;height:auto;" loading="lazy">
-              <h5>Try Two</h5>
-              <p class="text-muted" style="font-size:0.9rem;">30-Day Supply, 2 Bottles</p>
-              <p style="font-size:0.85rem;">Ideal for a quick initial test, though 30 days may barely scratch the surface of deep cellular respiratory regeneration.</p>
-              <a href="https://breatheasex.com/dtc-bundle/?aff_id=3346" target="_self" class="btn-cta-outline mt-2" rel="noopener">Order Try Two</a>
+            <div class="card-body">
+              <div class="text-center">
+                <img src="2b.webp" alt="Try Two Bundle" class="img-fluid mb-3" style="max-width:160px;width:100%;height:auto;" loading="lazy">
+                <h5>Try Two</h5>
+                <p class="text-muted" style="font-size:0.9rem;">30-Day Supply, 2 Bottles</p>
+                <p style="font-size:0.85rem;">Ideal for a quick initial test, though 30 days may barely scratch the surface of deep cellular respiratory regeneration.</p>
+              </div>
+              <div class="text-center mt-3">
+                <a href="https://breatheasex.com/dtc-bundle/?aff_id=3346" target="_self" class="btn-cta-outline mt-2" rel="noopener">Order Try Two</a>
+              </div>
             </div>
           </div>
         </div>
         <!-- 3 Bottles / Most Popular -->
         <div class="col-md-4" style="min-width:0;">
           <div class="card-custom h-100">
-            <div class="card-body text-center">
-              <img src="4b.webp" alt="Most Popular Bundle" class="img-fluid mb-3" style="max-width:200px;width:100%;height:auto;" loading="lazy">
-              <h5>Most Popular</h5>
-              <p class="text-muted" style="font-size:0.9rem;">60-Day Supply, 4 Bottles</p>
-              <p style="font-size:0.85rem;"><strong>Great Choice.</strong> A full 2-month protocol giving you ample testing time fully backed by the money-back guarantee.</p>
-              <a href="https://breatheasex.com/dtc-bundle/?aff_id=3346" target="_self" class="btn-cta-outline mt-2" rel="noopener">Order Most Popular</a>
+            <div class="card-body">
+              <div class="text-center">
+                <img src="4b.webp" alt="Most Popular Bundle" class="img-fluid mb-3" style="max-width:200px;width:100%;height:auto;" loading="lazy">
+                <h5>Most Popular</h5>
+                <p class="text-muted" style="font-size:0.9rem;">60-Day Supply, 4 Bottles</p>
+                <p style="font-size:0.85rem;"><strong>Great Choice.</strong> A full 2-month protocol giving you ample testing time fully backed by the money-back guarantee.</p>
+              </div>
+              <div class="text-center mt-3">
+                <a href="https://breatheasex.com/dtc-bundle/?aff_id=3346" target="_self" class="btn-cta-outline mt-2" rel="noopener">Order Most Popular</a>
+              </div>
             </div>
           </div>
         </div>
         <!-- 6 Bottles / Best Value -->
         <div class="col-md-4" style="min-width:0;">
           <div class="card-custom card-highlight h-100">
-            <div class="card-body text-center">
-              <img src="6b.webp" alt="Best Value Bundle" class="img-fluid mb-3" style="max-width:220px;width:100%;height:auto;" loading="lazy">
-              <h5>Best Value</h5>
-              <p class="text-muted" style="font-size:0.9rem;">90-Day Supply, 6 Bottles</p>
-              <p style="font-size:0.85rem;"><strong>Best Value.</strong> 180-day combined supply ensuring uninterrupted long-term progress with maximum per-bottle discount and free shipping.</p>
-              <a href="https://breatheasex.com/dtc-bundle/?aff_id=3346" target="_self" class="btn-cta-large mt-2" rel="noopener">Get My Discounted Bundle <i class="fa-solid fa-arrow-right ms-2"></i></a>
+            <div class="card-body">
+              <div class="text-center">
+                <img src="6b.webp" alt="Best Value Bundle" class="img-fluid mb-3" style="max-width:220px;width:100%;height:auto;" loading="lazy">
+                <h5>Best Value</h5>
+                <p class="text-muted" style="font-size:0.9rem;">90-Day Supply, 6 Bottles</p>
+                <p style="font-size:0.85rem;"><strong>Best Value.</strong> 180-day combined supply ensuring uninterrupted long-term progress with maximum per-bottle discount and free shipping.</p>
+              </div>
+              <div class="text-center mt-3">
+                <a href="https://breatheasex.com/dtc-bundle/?aff_id=3346" target="_self" class="btn-cta-large mt-2" rel="noopener">Get My Discounted Bundle <i class="fa-solid fa-arrow-right ms-2"></i></a>
+              </div>
             </div>
           </div>
         </div>
