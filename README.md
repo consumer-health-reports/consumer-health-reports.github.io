@@ -1,6 +1,6 @@
 # Consumer Health Reports 🏥
 
-Independent dietary supplement and topical wellness reviews published for 2026. This repository hosts clinical evaluations, 90-day testing reports, and verified product analyses across joint health, nerve comfort, prostate wellness, weight management, blood sugar support, cognitive health, male vitality, gut regularity, auditory function, advanced vision support, and topical pain relief.
+Independent dietary supplement and topical wellness reviews published for 2026. This repository hosts clinical evaluations, 90-day testing reports, and verified product analyses across joint health, nerve comfort, prostate wellness, weight management, blood sugar support, cognitive health, male vitality, gut regularity, auditory function, advanced vision support, respiratory/cardiovascular health, and topical pain relief.
 
 ---
 
@@ -22,6 +22,7 @@ Independent dietary supplement and topical wellness reviews published for 2026. 
 | 12 | [VisiumPro Review](/visiumpro-review/) | Advanced Vision Support | Marigold Lutein, Zeaxanthin, Bilberry, Astaxanthin | 60 Days |
 | 13 | [NervoLyn Review](/nervolyn-review/) | Advanced Nerve & Circulation Support | Magnesium Glycinate, Alpha Lipoic Acid, Butcher's Broom (Capsules) | 60 Days |
 | 14 | [Audifort Review](/audifort-review/) | Hearing Health & Tinnitus Support | Ginkgo Biloba, NAC, GABA, Magnesium, Zinc (Liquid Dropper) | 90 Days |
+| 15 | [BreathEaseX Review](/breathease-review/) | Respiratory & Cardiovascular Wellness | Manuka Honey MGO-400+, NAC, Quercetin, CoQ10 (Spray & Capsules) | 60 Days |
 
 ---
 
