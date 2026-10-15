@@ -122,9 +122,9 @@
     section h3 { font-weight: 600; font-size: 1.25rem; margin-bottom: 0.75rem; color: var(--text-secondary); }
     section h4 { font-weight: 600; font-size: 1.05rem; color: var(--text-secondary); }
     /* Cards */
-    .card-custom { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow: hidden; height: 100%; transition: box-shadow 0.2s; }
+    .card-custom { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow: hidden; height: 100%; transition: box-shadow 0.2s; display: flex; flex-direction: column; }
     .card-custom:hover { box-shadow: var(--shadow); }
-    .card-custom .card-body { padding: 20px 22px; }
+    .card-custom .card-body { padding: 20px 22px; flex-grow: 1; display: flex; flex-direction: column; }
     .card-highlight { border: 2px solid var(--accent); box-shadow: var(--shadow-lg); position: relative; }
     .card-highlight::before { content: 'BEST VALUE'; position: absolute; top: 12px; right: -2px; background: var(--accent); color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.8px; padding: 5px 16px; border-radius: 20px 0 0 20px; z-index: 2; }
     /* Scorecard */
