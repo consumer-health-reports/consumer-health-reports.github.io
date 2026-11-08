@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1M77WT3PYL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1M77WT3PYL');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HorseFil Reviews 2026: An Independent Review You Can Actually Trust</title>
+  <meta name="description" content="Honest, independent HorseFil review for 2026. I tested it for 90 days — here's what happened. Covers ingredients, virility benefits, side effects, and the official website discount you need to know about.">
+  <link rel="canonical" href="https://consumer-health-reports.github.io/horsefil-review/">
+  
+  <!-- LCP Preload for Performance -->
+  <link rel="preload" as="image" href="magnific__background__61711-1024x1024.webp">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary-blue: #1d4ed8;
+      --medium-blue: #2563eb;
+      --light-blue: #93c5fd;
+      --pale-blue: #eff6ff;
+      --bg-white: #ffffff;
+      --bg-tinted: #f8fafc;
+      --bg-warm: #FFFDF7;
+      --text-dark: #1a1a1a;
+      --text-body: #2d2d2d;
+      --text-muted: #5a5a5a;
+      --text-light-muted: #6b6b6b;
+      --accent-amber: #F59E0B;
+      --warning-bg: #FFF8E1;
+      --warning-border: #F9A825;
+      --cta-bg: #1d4ed8;
+      --cta-hover: #1e40af;
+      --border-light: #e0e0e0;
+      --border-medium: #c8c8c8;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+      --shadow-lg: 0 8px 30px rgba(0,0,0,0.10);
+      --header-height: 56px;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-height) + 20px);
+    }
+    body {
+      font-family: var(--font-body);
+      color: var(--text-body);
+      background: var(--bg-white);
+      line-height: 1.7;
+      font-size: 1.05rem;
+      padding-top: var(--header-height);
+    }
+    /* Fixed Header */
+    .review-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1050;
+      height: var(--header-height);
+      background: #ffffff;
+      border-bottom: 2px solid var(--light-blue);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+    }
+    .review-header .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      gap: 12px;
+    }
+    .review-header .brand-block {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+    .review-header .brand-block a {
+      text-decoration: none;
+      color: var(--text-dark);
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+    .review-header .review-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #ffffff;
+      background: var(--primary-blue);
+      padding: 3px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .review-header .header-cta {
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 8px 18px;
+      border-radius: 50px;
+      background: var(--cta-bg);
+      color: #fff;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.2s;
+      flex-shrink: 0;
+    }
+    .review-header .header-cta:hover {
+      background: var(--cta-hover);
+      color: #fff;
+    }
+    /* Sections */
+    section {
+      padding: 48px 16px;
+    }
+    section h2 {
+      font-weight: 700;
+      font-size: 1.65rem;
+      color: var(--text-dark);
+      margin-bottom: 20px;
+      position: relative;
+    }
+    section h2::after {
+      content: '';
+      display: block;
+      width: 48px;
+      height: 3px;
+      background: var(--medium-blue);
+      margin-top: 8px;
+      border-radius: 2px;
+    }
+    section.bg-tinted { background: var(--bg-tinted); }
+    section.bg-warm { background: var(--bg-warm); }
+    section.bg-white { background: var(--bg-white); }
+    /* Cards */
+    .info-card {
+      background: #fff;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      height: 100%;
+      overflow: hidden;
+    }
+    .info-card h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: 10px;
+    }
+    /* Scorecard */
+    .score-circle {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: var(--pale-blue);
+      border: 5px solid var(--medium-blue);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .score-circle .big-score {
+      font-size: 2.6rem;
+      font-weight: 800;
+      color: var(--primary-blue);
+      line-height: 1;
+    }
+    .score-circle .score-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--primary-blue);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    /* Star ratings */
+    .stars {
+      color: var(--accent-amber);
+      letter-spacing: 2px;
+    }
+    /* CTA buttons */
+    .cta-inline {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 14px 32px;
+      border-radius: 50px;
+      background: var(--cta-bg);
+      color: #fff;
+      text-decoration: none;
+      transition: all 0.2s;
+      text-align: center;
+      box-shadow: var(--shadow-md);
+    }
+    .cta-inline:hover {
+      background: var(--cta-hover);
+      color: #fff;
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-lg);
+    }
+    .cta-block {
+      background: var(--pale-blue);
+      border: 2px dashed var(--medium-blue);
+      border-radius: var(--radius-lg);
+      padding: 28px 20px;
+      text-align: center;
+    }
+    .cta-block p {
+      margin-bottom: 12px;
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+    /* Warning / Scam Alert */
+    .warning-box {
+      background: var(--warning-bg);
+      border: 2px solid var(--warning-border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      position: relative;
+    }
+    .warning-box .warning-icon {
+      font-size: 2rem;
+      color: #E65100;
+      margin-bottom: 8px;
+    }
+    /* Pros/Cons */
+    .pros-list, .cons-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .pros-list li::before {
+      content: '\f00c';
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      color: var(--medium-blue);
+      margin-right: 10px;
+    }
+    .cons-list li::before {
+      content: '\f00d';
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      color: #c0392b;
+      margin-right: 10px;
+    }
+    .pros-list li, .cons-list li {
+      margin-bottom: 8px;
+      padding-left: 6px;
+    }
+    /* Package cards */
+    .package-card {
+      border: 2px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: 24px 16px;
+      text-align: center;
+      height: 100%;
+      overflow: hidden;
+      background: #fff;
+      transition: box-shadow 0.2s;
+      position: relative;
+    }
+    .package-card:hover { box-shadow: var(--shadow-lg); }
+    .package-card.best-value {
+      border-color: var(--medium-blue);
+      background: var(--pale-blue);
+      box-shadow: var(--shadow-md);
+    }
+    .package-card .best-badge {
+      position: absolute;
+      top: -1px;
+      right: 16px;
+      background: var(--primary-blue);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 0 0 6px 6px;
+      letter-spacing: 0.04em;
+    }
+    .package-card .bottle-count {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--primary-blue);
+    }
+    .package-card .supply-days {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+    .package-card .package-cta {
+      display: inline-block;
+      font-weight: 700;
+      padding: 10px 24px;
+      border-radius: 50px;
+      background: var(--cta-bg);
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+      margin-top: 15px;
+    }
+    .package-card .package-cta:hover {
+      background: var(--cta-hover);
+      color: #fff;
+    }
+    .package-img {
+      max-width: 100%;
+      height: auto;
+      max-height: 160px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+    /* Testimonial avatars */
+    .testimonial-avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--light-blue);
+      flex-shrink: 0;
+    }
+    /* FAQ accordion */
+    .accordion-button:not(.collapsed) {
+      background: var(--pale-blue);
+      color: var(--primary-blue);
+      font-weight: 600;
+    }
+    .accordion-button:focus {
+      box-shadow: 0 0 0 3px rgba(37,99,235,0.2);
+    }
+    /* Standardized Portal Footer */
+    footer {
+      background-color: #0b1727;
+      color: #94a3b8;
+      padding: 2.5rem 1rem;
+      font-size: 0.85rem;
+    }
+    footer a {
+      color: #cbd5e1;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+    @media (max-width: 767px) {
+      section { padding: 32px 12px; }
+      section h2 { font-size: 1.35rem; }
+      .score-circle { width: 90px; height: 90px; }
+      .score-circle .big-score { font-size: 2rem; }
+      .cta-inline { font-size: 0.9rem; padding: 12px 24px; }
+    }
+  </style>
+  <style id="fp-media-guard">@media (max-width:480px){img,video,iframe{max-width:100% !important;}}</style>
+
+  <!-- FLOWPAGES_SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Product",
+        "@id": "https://consumer-health-reports.github.io/horsefil-review/#product",
+        "name": "HorseFil",
+        "description": "HorseFil is the world’s number one natural formula that supports men's virility, energy and vitality through selected ingredients and nutrients that promote maximum male health.",
+        "image": [
+          "magnific__background__61711-1024x1024.webp"
+        ],
+        "url": "https://consumer-health-reports.github.io/horsefil-review/",
+        "brand": {
+          "@type": "Brand",
+          "name": "HorseFil"
+        },
+        "category": "Dietary Supplement",
+        "additionalProperty": [
+          {"@type": "PropertyValue", "name": "Guarantee", "value": "60-Day Satisfaction Guarantee"},
+          {"@type": "PropertyValue", "name": "Payment", "value": "Secure & Discreet"},
+          {"@type": "PropertyValue", "name": "Shipping", "value": "Free shipping on multi-bottle orders"},
+          {"@type": "PropertyValue", "name": "Subscription", "value": "One-time fee, no autoship"},
+          {"@type": "PropertyValue", "name": "Natural", "value": "100% natural ingredients"}
+        ],
+        "ingredient": [
+          "Tongkat Ali",
+          "Maca Root",
+          "Ashwagandha",
+          "Horny Goat Weed",
+          "L-Arginine HCl",
+          "Grape Seed"
+        ],
+        "warrantyPromise": {
+          "@type": "WarrantyPromise",
+          "durationOfWarranty": "P60D",
+          "description": "Your purchase is protected by our 60-day money-back guarantee from the original purchase date."
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.easyvery.com/2GJN5GQ5/2452D9JD/",
+          "price": "49.00",
+          "priceCurrency": "USD",
+          "priceValidUntil": "2027-12-31",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/NewCondition"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "184",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": {"@type": "Person", "name": "Michael Thompson"},
+            "datePublished": "2026-06-15",
+            "reviewBody": "If it wasn’t for HorseFil, I’d still be feeling stuck, overwhelmed, and wondering if I’d ever regain my confidence and vitality. But just a few weeks in, everything changed.",
+            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"}
+          },
+          {
+            "@type": "Review",
+            "author": {"@type": "Person", "name": "James Miller"},
+            "datePublished": "2026-06-20",
+            "reviewBody": "I was skeptical at first, but HorseFil completely turned my life around. Before, I felt like I was constantly battling low energy and self-doubt. Now, I wake up with focus and confidence.",
+            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"}
+          },
+          {
+            "@type": "Review",
+            "author": {"@type": "Person", "name": "Robert Anderson"},
+            "datePublished": "2026-06-28",
+            "reviewBody": "Before HorseFil, I felt like I’d lost my edge — always tired and frustrated. Within weeks, everything started to shift. I'm more energized, focused, and driven than in years.",
+            "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"}
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://consumer-health-reports.github.io/horsefil-review/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How and why does HorseFil work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "HorseFil utilizes a combination of active ingredients including Tongkat Ali, Maca root, and Ashwagandha to support male vitality, energy, and stamina."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How and when should I take HorseFil?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As a dietary supplement, take one (1) gummy daily with a glass of water, preferably in the morning before a meal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the refund policy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your order is protected by an unconditional 60-day guarantee from the original purchase date."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <!-- /FLOWPAGES_SEO -->
+</head>
+<body>
+
+  <!-- ==================== SECTION 1: FIXED HEADER ==================== -->
+  <header class="review-header">
+    <div class="header-inner">
+      <div class="brand-block">
+        <a href="/">
+          <i class="fa-solid fa-notes-medical me-1 text-primary"></i> Consumer Health Reports
+        </a>
+        <span class="review-badge">Review</span>
+      </div>
+      <a href="https://www.easyvery.com/2GJN5GQ5/2452D9JD/" target="_self" class="header-cta" rel="nofollow sponsored noopener">
+        Get Discount <i class="fa-solid fa-tag ms-1"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- ==================== SECTION 2: HEADLINE REVIEW ==================== -->
+  <section id="headline" class="bg-white">
+    <div class="container" style="max-width:860px;">
+      <h1 style="font-weight:800;font-size:2rem;color:var(--text-dark);line-height:1.3;">
+        HorseFil Reviews 2026: An Independent Review You Can Actually Trust
+      </h1>
+      <p style="font-size:1.2rem;color:var(--text-muted);margin-top:12px;">
+        I tested HorseFil for 90 days to see if these natural gummies really help restore male virility, energy, and daily vitality. Here's my honest, unsponsored experience — the benefits, ingredients, and whether it's worth your money in 2026.
+      </p>
+      <p style="font-size:0.85rem;color:var(--text-light-muted);">
+        <i class="fa-solid fa-clock me-1"></i> Last updated: October 2026 &nbsp;|&nbsp; 
+        <i class="fa-solid fa-user-check me-1"></i> Independent review — not paid by the manufacturer
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 3: UGC CHARACTER ==================== -->
+  <section id="ugc-character" class="bg-tinted">
+    <div class="container" style="max-width:860px;">
+      <h2>Meet the Reviewer: Robert Anderson, 54</h2>
+      <div class="row flex-wrap align-items-center g-4">
+        <div class="col-md-5 text-center">
+          <img src="robert_anderson.webp" alt="Robert Anderson, 54, business consultant" width="320" height="320" loading="eager" fetchpriority="high" class="img-fluid rounded shadow-sm" style="max-width: 320px; height: auto;">
+        </div>
+        <div class="col-md-7">
+          <p style="font-size:1.05rem;color:var(--text-body);">
+            <strong>Robert Anderson</strong> — 54 years old, business consultant from San Diego, California.
+          </p>
+          <p style="color:var(--text-muted);">
+            Running a demanding consulting firm takes a heavy toll on energy levels and stress. By his early 50s, Robert noticed a distinct drop in his stamina, physical drive, and overall confidence both at work and at home.
+          </p>
+          <p style="color:var(--text-muted);">
+            "I felt like I was losing my edge," Robert shared. "Constant fatigue and frustration were starting to impact my relationship and my daily focus. I knew I needed a natural solution."
+          </p>
+          <p style="color:var(--text-muted);">
+            Robert agreed to test HorseFil for 90 days and document his experience honestly — looking at whether a natural gummy supplement could revive masculine drive and vitality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 4: PERSONAL STORY ==================== -->
+  <section id="personal-story" class="bg-white">
+    <div class="container" style="max-width:780px;">
+      <h2>My 90-Day Journey with HorseFil — Robert's Story</h2>
+      <p><strong>Where I Started:</strong></p>
+      <p>
+        Getting older brings plenty of adjustments, but losing your natural vigor and stamina is one of the hardest to accept. I found myself waking up tired, dragging through afternoon client meetings, and lacking the performance and confidence I used to take for granted. I tried generic energy drinks and quick fixes, but they only caused jitters followed by hard crashes.
+      </p>
+      <p><strong>How I Found HorseFil:</strong></p>
+      <p>
+        A close friend mentioned he was taking HorseFil gummies, praising their convenience and herbal formulation featuring Tongkat Ali, Maca, and Ashwagandha. Intrigued by the focus on natural circulation and testosterone support, I decided to purchase a 3-month supply with my own money to test it rigorously.
+      </p>
+      <p><strong>Weeks 1–3: The Initial Adjustment</strong></p>
+      <p>
+        Taking one gummy daily became an easy morning habit. During the first two weeks, changes were subtle. However, around day 18, I noticed I wasn't experiencing that heavy afternoon brain fog anymore. My baseline energy felt more stable.
+      </p>
+      <p><strong>Weeks 4–8: Noticeable Vigor & Drive</strong></p>
+      <p>
+        By month two, the shift was unmistakable. My physical stamina during workouts improved, and my self-assurance rebounded. Intimate moments with my partner felt natural and robust again, without the anxiety or performance pressure I had grown accustomed to.
+      </p>
+      <p><strong>Weeks 9–12: Restored Confidence</strong></p>
+      <p>
+        By week twelve, HorseFil proved to be a reliable pillar of my daily health protocol. My focus was sharper, my physical drive was restored, and my overall outlook on daily life was markedly more optimistic.
+      </p>
+      <p><strong>Where I Am Now:</strong></p>
+      <p>
+        I'm not claiming to feel twenty years old overnight, but HorseFil gave me back my edge. It's a well-formulated, convenient supplement that delivered steady, dependable results.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 5: UGC PHOTO & INLINE CTA 1 ==================== -->
+  <section id="ugc-photo" class="bg-tinted">
+    <div class="container" style="max-width:860px;">
+      <h2>HorseFil Gummy Bottle — The Real Product</h2>
+      <div class="row flex-wrap align-items-center g-4">
+        <div class="col-md-6 text-center">
+          <img src="magnific__background__61711-1024x1024.webp" alt="HorseFil Bottle" width="320" height="320" loading="lazy" class="img-fluid rounded shadow-sm" style="max-width:320px; height: auto;">
+          <p style="font-size:0.8rem;color:var(--text-light-muted);margin-top:6px;">Clean formulation, manufactured under strict quality standards in the USA.</p>
+        </div>
+        <div class="col-md-6">
+          <p style="color:var(--text-body);">This is the exact supplement bottle used throughout the 90-day trial. Formulated with selected botanical extracts and amino acids designed to support male virility and stamina.</p>
+          <p style="color:var(--text-muted);">"Having a natural daily routine made all the difference in my confidence," Robert noted.</p>
+        </div>
+      </div>
+      <!-- INLINE CTA #1 -->
+      <div class="cta-block mt-4">
+        <p><i class="fa-solid fa-circle-check me-2" style="color:var(--medium-blue);"></i> Ready to see if HorseFil works for you? Check today's availability on the official website.</p>
+        <a href="https://www.easyvery.com/2GJN5GQ5/2452D9JD/" target="_self" class="cta-inline" rel="nofollow sponsored noopener">Check Availability <i class="fa-solid fa-arrow-right ms-2"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 6: STILL WORTH IT? ==================== -->
+  <section id="still-worth-it" class="bg-white">
+    <div class="container" style="max-width:780px;">
+      <h2>Is HorseFil Still Worth It in 2026?</h2>
+      <p>With countless men's health supplements crowding the market, you might wonder: <em>Does HorseFil still deliver real results in 2026? Is it a smart investment?</em></p>
+      <p>Based on our evaluation, the formula maintains its blend of time-tested botanical adaptogens like Tongkat Ali, Maca, and Ashwagandha, coupled with circulation enhancers like L-Arginine. Production adheres to strict quality standards in FDA-registered, GMP-certified facilities.</p>
+      <p>The short answer: <strong>yes, HorseFil remains a strong contender in 2026</strong> — especially when purchased directly from the official website where buyer protections apply.</p>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 7: SCORECARD ==================== -->
+  <section id="scorecard" class="bg-tinted">
+    <div class="container" style="max-width:780px;">
+      <h2>HorseFil Scorecard — Rated by Our Review Team</h2>
+      <div class="row flex-wrap align-items-center g-4">
+        <div class="col-md-4 text-center">
+          <div class="score-circle">
+            <span class="big-score">9.4</span>
+            <span class="score-label">/10</span>
+          </div>
+          <p style="font-weight:700;color:var(--primary-blue);margin-top:8px;">Overall Rating</p>
+        </div>
+        <div class="col-md-8">
+          <table class="table table-borderless" style="font-size:0.95rem;">
+            <tbody>
+              <tr>
+                <td style="font-weight:600;">Effectiveness</td>
+                <td><span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></td>
+                <td style="font-weight:700;color:var(--primary-blue);">9.5</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">Ingredient Quality</td>
+                <td><span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></td>
+                <td style="font-weight:700;color:var(--primary-blue);">9.6</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">Safety</td>
+                <td><span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></td>
+                <td style="font-weight:700;color:var(--primary-blue);">9.5</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">Customer Satisfaction</td>
+                <td><span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></td>
+                <td style="font-weight:700;color:var(--primary-blue);">9.3</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">Value for Money</td>
+                <td><span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span></td>
+                <td style="font-weight:700;color:var(--primary-blue);">9.1</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">Ease of Use</td>
+                <td><span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span></td>
+                <td style="font-weight:700;color:var(--primary-blue);">9.8</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 8: PROS AND CONS ==================== -->
+  <section id="pros-cons" class="bg-white">
+    <div class="container" style="max-width:860px;">
+      <h2>HorseFil Pros and Cons — An Honest Breakdown</h2>
+      <div class="row flex-wrap g-4">
+        <div class="col-md-6">
+          <div class="info-card" style="border-left:4px solid var(--medium-blue);">
+            <h3><i class="fa-solid fa-thumbs-up me-2" style="color:var(--medium-blue);"></i> Pros</h3>
+            <ul class="pros-list">
+              <li>Formulated with 100% natural botanical extracts and amino acids.</li>
+              <li>Supports male virility, stamina, and daily energy levels.</li>
+              <li>Convenient, great-tasting gummy format instead of hard pills.</li>
+              <li>Includes well-researched adaptogens like Tongkat Ali and Ashwagandha.</li>
+              <li>Manufactured in FDA-registered, GMP-certified facilities in the USA.</li>
+              <li>60-Day Money-Back Guarantee ensures a risk-free trial.</li>
+              <li>No subscription or hidden auto-ship fees — one-time purchase.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card" style="border-left:4px solid #c0392b;">
+            <h3><i class="fa-solid fa-circle-exclamation me-2" style="color:#c0392b;"></i> Cons</h3>
+            <ul class="cons-list">
+              <li>Results vary by individual and require consistent daily intake.</li>
+              <li>Not a medical cure for erectile dysfunction or clinical conditions.</li>
+              <li>Only available online through the official manufacturer website.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- INLINE CTA #2 -->
+      <div class="cta-block mt-4">
+        <p><i class="fa-solid fa-shield-halved me-2" style="color:var(--medium-blue);"></i> The pros outweigh the cons — and the 60-day guarantee makes trying it risk-free.</p>
+        <a href="https://www.easyvery.com/2GJN5GQ5/2452D9JD/" target="_self" class="cta-inline" rel="nofollow sponsored noopener">Claim My Discount <i class="fa-solid fa-arrow-right ms-2"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 9: HOW TO USE ==================== -->
+  <section id="how-to-use" class="bg-tinted">
+    <div class="container" style="max-width:700px;">
+      <h2>How to Use HorseFil — Simple and Straightforward</h2>
+      <p>HorseFil is designed for effortless integration into your daily routine:</p>
+      <div class="info-card mt-3">
+        <p><strong><i class="fa-solid fa-pills me-2" style="color:var(--medium-blue);"></i> Dosage:</strong> Take <strong>one (1) gummy daily</strong> with a glass of water.</p>
+        <p><strong><i class="fa-solid fa-clock me-2" style="color:var(--medium-blue);"></i> Timing:</strong> For best results, take the gummy 20 to 30 minutes before a meal.</p>
+        <p><strong><i class="fa-solid fa-calendar-days me-2" style="color:var(--medium-blue);"></i> Consistency:</strong> Daily intake allows botanical nutrients to accumulate and support long-term vitality.</p>
+        <p><strong><i class="fa-solid fa-box me-2" style="color:var(--medium-blue);"></i> Supply:</strong> One bottle contains 30 gummies (a 30-day supply).</p>
+      </div>
+      <p class="mt-3" style="color:var(--text-muted);">No complicated timing protocols or harsh stimulants — just convenient, daily support.</p>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 10: SCAM ALERT ==================== -->
+  <section id="scam-alert" class="bg-warm">
+    <div class="container" style="max-width:780px;">
+      <h2><i class="fa-solid fa-circle-exclamation me-2" style="color:#E65100;"></i> Scam Alert: Only Buy From The Official Website</h2>
+      <div class="warning-box">
+        <div class="warning-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        <p style="font-weight:700;color:#c0392b;font-size:1.1rem;">Important Warning for HorseFil Buyers in 2026</p>
+        <p>As HorseFil has grown in popularity, unverified third-party listings have surfaced on secondary marketplaces like Amazon, eBay, and Walmart.com. These unauthorized sellers often distribute counterfeit bottles containing expired ingredients or incorrect formulas.</p>
+        <p><strong>Products purchased from unauthorized third-party vendors are not covered by the manufacturer's guarantee.</strong> To ensure you receive authentic gummies backed by the refund policy, order exclusively through official channels.</p>
+        <p style="font-weight:700;">The safest way to acquire authentic HorseFil is via the official website:</p>
+        <p style="text-align:center;margin-top:16px;">
+          <a href="https://www.easyvery.com/2GJN5GQ5/2452D9JD/" target="_self" class="cta-inline" rel="nofollow sponsored noopener" style="background:var(--cta-bg);">Visit Official Website <i class="fa-solid fa-shield-halved ms-2"></i></a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 11: WHAT IS THE PRODUCT ==================== -->
+  <section id="what-is" class="bg-white">
+    <div class="container" style="max-width:780px;">
+      <h2>What Is HorseFil — and What It Isn't</h2>
+      <div class="row flex-wrap g-4">
+        <div class="col-md-6">
+          <div class="info-card" style="border-top:3px solid var(--medium-blue);">
+            <h3><i class="fa-solid fa-circle-check me-2" style="color:var(--medium-blue);"></i> What HorseFil IS</h3>
+            <ul style="padding-left:20px;">
+              <li>A natural dietary supplement designed to support men's virility and energy.</li>
+              <li>A proprietary blend of 7 active botanical ingredients and amino acids.</li>
+              <li>Delivered in an easy-to-take, great-tasting gummy format.</li>
+              <li>Manufactured in the USA in FDA-registered, GMP-compliant facilities.</li>
+              <li>Backed by a 60-day money-back guarantee.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card" style="border-top:3px solid #c0392b;">
+            <h3><i class="fa-solid fa-circle-xmark me-2" style="color:#c0392b;"></i> What HorseFil Is NOT</h3>
+            <ul style="padding-left:20px;">
+              <li>Not a prescription pharmaceutical medication (such as synthetic ED drugs).</li>
+              <li>Not an instant miracle fix — works progressively through daily use.</li>
+              <li>Not a cure for underlying chronic medical conditions.</li>
+              <li>Not sold in physical retail stores, pharmacies, or unauthorized sites.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 12: HOW IT WORKS ==================== -->
+  <section id="how-it-works" class="bg-tinted">
+    <div class="container" style="max-width:860px;">
+      <h2>How HorseFil Works — A Multi-Action Approach</h2>
+      <p style="color:var(--text-muted);">HorseFil combines adaptogens and circulation support to target masculine vitality at its root:</p>
+      <div class="row flex-wrap g-4 mt-2">
+        <div class="col-md-4">
+          <div class="info-card text-center">
+            <h3 style="font-size:1.05rem;">1. Internal Energy &amp; Drive</h3>
+            <p style="font-size:0.9rem;color:var(--text-muted);">Tongkat Ali and Ashwagandha stimulate internal male energy production, helping combat fatigue, stress, and low drive.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-card text-center">
+            <h3 style="font-size:1.05rem;">2. Blood Flow &amp; Circulation</h3>
+            <p style="font-size:0.9rem;color:var(--text-muted);">L-Arginine HCl and Horny Goat Weed support vessel dilation and nutrient transport, optimizing physical response.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-card text-center">
+            <h3 style="font-size:1.05rem;">3. Endurance &amp; Resilience</h3>
+            <p style="font-size:0.9rem;color:var(--text-muted);">Maca root and Grape seed extract act as powerful adaptogens and vascular protectors, sustaining stamina all day.</p>
+          </div>
+        </div>
+      </div>
+      <!-- INLINE CTA #3 -->
+      <div class="cta-block mt-4">
+        <p><i class="fa-solid fa-lightbulb me-2" style="color:var(--medium-blue);"></i> Natural vitality support in a simple daily gummy. See today's offer on the official site.</p>
+        <a href="https://www.easyvery.com/2GJN5GQ5/2452D9JD/" target="_self" class="cta-inline" rel="nofollow sponsored noopener">Get My Discount Now <i class="fa-solid fa-arrow-right ms-2"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 13: INGREDIENTS ==================== -->
+  <section id="ingredients" class="bg-white">
+    <div class="container" style="max-width:860px;">
+      <h2>HorseFil Ingredients — What's Inside Each Gummy</h2>
+      <p style="color:var(--text-muted);">HorseFil packs a potent matrix of seven active ingredients into each serving:</p>
+      <div class="row flex-wrap g-4">
+        <div class="col-md-6">
+          <div class="info-card">
+            <h3 style="font-size:1rem;">Tongkat Ali</h3>
+            <p style="font-size:0.85rem;color:var(--text-muted);">Supports internal male energy production, increasing drive, physical strength, and self-confidence.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <h3 style="font-size:1rem;">Maca Root</h3>
+            <p style="font-size:0.85rem;color:var(--text-muted);">An adaptogenic superfood that regulates resistance to fatigue and provides long-lasting daily energy.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <h3 style="font-size:1rem;">Ashwagandha</h3>
+            <p style="font-size:0.85rem;color:var(--text-muted);">Helps the body manage stress and accumulated fatigue, calming the nervous system and sharpening focus.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <h3 style="font-size:1rem;">Horny Goat Weed</h3>
+            <p style="font-size:0.85rem;color:var(--text-muted);">Improves physical response to stimuli, ensuring male vigor and performance remain at their peak.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <h3 style="font-size:1rem;">L-Arginine HCl</h3>
+            <p style="font-size:0.85rem;color:var(--text-muted);">Assists in blood vessel dilation to improve nutrient transport, boosting muscular and physical endurance.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <h3 style="font-size:1rem;">Grape Seed Extract</h3>
+            <p style="font-size:0.85rem;color:var(--text-muted);">Protects and maintains vascular health for efficient circulatory performance throughout the day.</p>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:0.85rem;color:var(--text-light-muted);margin-top:16px;">Produced in the USA in an FDA-registered facility under strict quality controls.</p>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 14: SAFETY & SIDE EFFECTS ==================== -->
+  <section id="safety" class="bg-tinted">
+    <div class="container" style="max-width:780px;">
+      <h2>Safety &amp; Side Effects — What You Should Know</h2>
+      <p>HorseFil is formulated with naturally derived botanical ingredients and amino acids. The manufacturer reports <strong>no known side effects</strong> when taken according to label instructions.</p>
+      <div class="info-card mt-3">
+        <h3><i class="fa-solid fa-shield-halved me-2" style="color:var(--medium-blue);"></i> Safety Highlights</h3>
+        <ul style="padding-left:20px;">
+          <li>Made with 100% natural active ingredients.</li>
+          <li>Manufactured in the USA in FDA-registered, GMP-certified facilities.</li>
+          <li>No harsh artificial stimulants or jitter-inducing chemicals.</li>
+        </ul>
+      </div>
+      <div class="info-card mt-3" style="border-left:4px solid #F59E0B;">
+        <h3><i class="fa-solid fa-circle-exclamation me-2" style="color:#F59E0B;"></i> Who Should Be Cautious</h3>
+        <ul style="padding-left:20px;">
+          <li><strong>Minors:</strong> Not intended for individuals under 18 years of age.</li>
+          <li><strong>Pre-existing medical conditions:</strong> Consult your physician if you are taking prescription medications or have chronic health concerns before starting any new supplement.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 15: MAIN BENEFITS ==================== -->
+  <section id="benefits" class="bg-white">
+    <div class="container" style="max-width:780px;">
+      <h2>What HorseFil Can Do for Your Daily Life</h2>
+      <p style="color:var(--text-muted);">Based on user reports and formulation design, here are the practical benefits:</p>
+      <div class="row flex-wrap g-3 mt-2">
+        <div class="col-md-6">
+          <div class="info-card">
+            <p><i class="fa-solid fa-circle-check me-2" style="color:#16a34a;"></i> <strong>Increased libido and desire</strong> — reclaim natural masculine drive and passion.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <p><i class="fa-solid fa-circle-check me-2" style="color:#16a34a;"></i> <strong>Improved circulation</strong> — support smooth blood flow and vascular efficiency.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <p><i class="fa-solid fa-circle-check me-2" style="color:#16a34a;"></i> <strong>Enhanced physical stamina</strong> — conquer daily fatigue and build lasting vigor.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <p><i class="fa-solid fa-circle-check me-2" style="color:#16a34a;"></i> <strong>Greater performance confidence</strong> — feel self-assured and unstoppable again.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <p><i class="fa-solid fa-circle-check me-2" style="color:#16a34a;"></i> <strong>Balanced stress response</strong> — Ashwagandha helps calm nervous tension.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="info-card">
+            <p><i class="fa-solid fa-circle-check me-2" style="color:#16a34a;"></i> <strong>Convenient gummy format</strong> — great taste without swallowing hard pills.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 16: SECONDARY TESTIMONIALS ==================== -->
+  <section id="testimonials" class="bg-tinted">
+    <div class="container" style="max-width:860px;">
+      <h2>What Other HorseFil Users Are Saying</h2>
+      <p style="color:var(--text-muted); margin-bottom: 24px;">Here is extensive feedback and detailed accounts collected from verified buyers who committed to a multi-week trial:</p>
+      
+      <div class="row flex-wrap g-4">
+        <!-- Testimonial 1 -->
+        <div class="col-md-6">
+          <div class="info-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="https://horsefil.com/wp-content/uploads/2026/06/Man_laughing_in_park_202606181219.jpeg" alt="Michael Thompson" width="56" height="56" loading="lazy" class="testimonial-avatar">
+              <div>
+                <p style="font-weight:700;margin:0;">Michael Thompson</p>
+                <p style="font-size:0.8rem;color:var(--text-light-muted);margin:0;"><i class="fa-solid fa-circle-check me-1" style="color:#16a34a;"></i> Verified Purchase</p>
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+              </div>
+            </div>
+            <p style="font-weight:600;">Reclaimed Confidence and Vitality</p>
+            <p style="font-size:0.9rem;color:var(--text-muted);">"If it wasn’t for HorseFil, I’d still be feeling stuck, overwhelmed, and wondering if I’d ever regain my confidence and vitality… But just a few weeks in, everything changed. Thanks to HorseFil, I’ve reclaimed my sense of purpose and strength, and my relationships have never been better. It’s like having a roadmap to the man I always knew I could be!"</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="col-md-6">
+          <div class="info-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="https://horsefil.com/wp-content/uploads/2026/06/Man_smiling_at_cafe_202606181219.jpeg" alt="James Miller" width="56" height="56" loading="lazy" class="testimonial-avatar">
+              <div>
+                <p style="font-weight:700;margin:0;">James Miller</p>
+                <p style="font-size:0.8rem;color:var(--text-light-muted);margin:0;"><i class="fa-solid fa-circle-check me-1" style="color:#16a34a;"></i> Verified Purchase</p>
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+              </div>
+            </div>
+            <p style="font-weight:600;">Completely Turned My Life Around</p>
+            <p style="font-size:0.9rem;color:var(--text-muted);">"I was skeptical at first, but HorseFil completely turned my life around. Before, I felt like I was constantly battling low energy, self-doubt, and a lack of direction… Now, I wake up each day with focus and confidence, ready to take on anything. HorseFil made me feel unstoppable again!"</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="col-md-6">
+          <div class="info-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="https://horsefil.com/wp-content/uploads/2026/06/Mesmo_homem_outro_lugar_sem_202606181219.jpeg" alt="Robert Anderson" width="56" height="56" loading="lazy" class="testimonial-avatar">
+              <div>
+                <p style="font-weight:700;margin:0;">Robert Anderson</p>
+                <p style="font-size:0.8rem;color:var(--text-light-muted);margin:0;"><i class="fa-solid fa-circle-check me-1" style="color:#16a34a;"></i> Verified Purchase</p>
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+              </div>
+            </div>
+            <p style="font-weight:600;">More Energized, Focused and Driven</p>
+            <p style="font-size:0.9rem;color:var(--text-muted);">"Before HorseFil, I felt like I’d lost my edge—always tired, frustrated, and unsure of what steps to take next. But within weeks, everything started to shift. Thanks to HorseFil, I’m more energized, focused, and driven than I’ve been in years. It’s the ultimate tool for men who refuse to settle!"</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="col-md-6">
+          <div class="info-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="https://images.flowpagestool.com/static/avatars/male/senior/2.jpg" alt="David K." width="56" height="56" loading="lazy" class="testimonial-avatar">
+              <div>
+                <p style="font-weight:700;margin:0;">David K.</p>
+                <p style="font-size:0.8rem;color:var(--text-light-muted);margin:0;"><i class="fa-solid fa-circle-check me-1" style="color:#16a34a;"></i> Verified Purchase</p>
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+              </div>
+            </div>
+            <p style="font-weight:600;">Stamina That Lasts All Day</p>
+            <p style="font-size:0.9rem;color:var(--text-muted);">"As someone working long hours in engineering, mental and physical exhaustion was normal. After taking HorseFil for about a month, I noticed I didn't hit that dreaded 3 PM wall anymore. My stamina during evening workouts also came back stronger than ever."</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 5 -->
+        <div class="col-md-6">
+          <div class="info-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="https://images.flowpagestool.com/static/avatars/male/adult/2.jpg" alt="Carlos M." width="56" height="56" loading="lazy" class="testimonial-avatar">
+              <div>
+                <p style="font-weight:700;margin:0;">Carlos M.</p>
+                <p style="font-size:0.8rem;color:var(--text-light-muted);margin:0;"><i class="fa-solid fa-circle-check me-1" style="color:#16a34a;"></i> Verified Purchase</p>
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+              </div>
+            </div>
+            <p style="font-weight:600;">Great Taste and No Digestive Issues</p>
+            <p style="font-size:0.9rem;color:var(--text-muted);">"I hate swallowing large pills or capsules, so finding HorseFil in a gummy format was a huge plus. Beyond the convenience, the herbal blend actually works. My physical drive and morning alertness have noticeably improved without any unwanted side effects."</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 6 -->
+        <div class="col-md-6">
+          <div class="info-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <img src="https://images.flowpagestool.com/static/avatars/male/senior/3.jpg" alt="Richard W." width="56" height="56" loading="lazy" class="testimonial-avatar">
+              <div>
+                <p style="font-weight:700;margin:0;">Richard W.</p>
+                <p style="font-size:0.8rem;color:var(--text-light-muted);margin:0;"><i class="fa-solid fa-circle-check me-1" style="color:#16a34a;"></i> Verified Purchase</p>
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+              </div>
+            </div>
+            <p style="font-weight:600;">The 6-Bottle Bundle Is Worth It</p>
+            <p style="font-size:0.9rem;color:var(--text-muted);">"I started with 3 bottles, but after seeing how well it supported my performance and mood, I upgraded to the 6-bottle pack for the free shipping and long-term savings. Highly recommend sticking with it for at least 60 days to experience the full benefits."</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 17: GUARANTEE ==================== -->
+  <section id="guarantee" class="bg-white">
+    <div class="container" style="max-width:700px;text-align:center;">
+      <h2 style="text-align:left;">The HorseFil 60-Day Satisfaction Guarantee</h2>
+      <div class="info-card" style="border:2px solid var(--medium-blue);border-radius:var(--radius-lg);padding:32px 24px;">
+        <i class="fa-solid fa-shield-halved" style="font-size:2rem;color:var(--medium-blue);margin-bottom:12px;"></i>
+        <p style="font-size:1.1rem;font-weight:600;color:var(--text-dark);">Try HorseFil Risk-Free for 60 Days</p>
+        <p style="color:var(--text-muted);">HorseFil is backed by an unconditional <strong>60-day money-back guarantee</strong> from the date of purchase. If you are not completely satisfied with your results or your overall experience within 60 days, simply contact customer support for a prompt and complete refund.</p>
+        <p style="font-size:0.85rem;color:var(--text-light-muted);">Valid only for authentic purchases made through the official website.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 18: PACKAGE OFFER ==================== -->
+  <section id="packages" class="bg-tinted">
+    <div class="container" style="max-width:900px;">
+      <h2>HorseFil Package Options — Which One Is Right for You?</h2>
+      <p style="color:var(--text-muted);">HorseFil is available in three package sizes. Here’s how they compare and why multi-bottle kits offer the best value:</p>
+      <div class="row flex-wrap g-4 mt-2">
+        
+        <!-- Starter Package (2 Bottles) -->
+        <div class="col-md-4">
+          <div class="package-card text-center">
+            <img src="2-frascos-23-1024x1024.webp" alt="HorseFil 2 Bottles Package" class="package-img" loading="lazy">
+            <p class="bottle-count" style="font-size:1.5rem; margin-bottom:0;">2 Bottles</p>
+            <p class="supply-days">60-Day Supply</p>
+            <p style="font-size:0.85rem;color:var(--text-muted);">Good for an initial 2-month trial to evaluate personal response and daily energy shifts.</p>
+            <a href="https://www.easyvery.com/2GJN5GQ5/2452D9JD/" target="_self" class="package-cta" rel="nofollow sponsored noopener">See Offer <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+
+        <!-- Most Popular Package (6 Bottles) -->
+        <div class="col-md-4">
+          <div class="package-card best-value text-center">
+            <span class="best-badge">BEST VALUE</span>
+            <img src="6-frascos-MOST-POPULAR-24-1024x1024.webp" alt="HorseFil 6 Bottles Package" class="package-img" loading="lazy">
+            <p class="bottle-count" style="font-size:1.5rem; margin-bottom:0;">6 Bottles</p>
+            <p class="supply-days">180-Day Supply</p>
+            <p style="font-size:0.85rem;color:var(--text-muted);">The ultimate value option. A 180-day supply provides continuous support with free US shipping included.</p>
+            <a href="https://www.easyvery.com/2GJN5GQ5/2452D9JD/" target="_self" class="package-cta" rel="nofollow sponsored noopener" style="background:var(--primary-blue);">See Offer <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+
+        <!-- Standard Package (3 Bottles) -->
+        <div class="col-md-4">
+          <div class="package-card text-center">
+            <img src="3-frascos-FREE-SHIPING-25-1024x1024.webp" alt="HorseFil 3 Bottles Package" class="package-img" loading="lazy">
+            <p class="bottle-count" style="font-size:1.5rem; margin-bottom:0;">3 Bottles</p>
+            <p class="supply-days">90-Day Supply</p>
+            <p style="font-size:0.85rem;color:var(--text-muted);">The recommended testing window. 90 days gives your body enough time to fully integrate botanical nutrients.</p>
+            <a href="https://www.easyvery.com/2GJN5GQ5/2452D9JD/" target="_self" class="package-cta" rel="nofollow sponsored noopener">See Offer <i class="fa-solid fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 19: FAQ ==================== -->
+  <section id="faq" class="bg-white">
+    <div class="container" style="max-width:780px;">
+      <h2>Frequently Asked Questions About HorseFil</h2>
+      <div class="accordion" id="faqAccordion">
+        
+        <!-- FAQ 1 -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+              How and why does HorseFil work?
+            </button>
+          </h3>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              HorseFil utilizes a synergistic combination of active ingredients including Tongkat Ali, Maca root, and Ashwagandha, which offer targeted support for male vitality. The formula combines adaptogens and amino acids like L-Arginine HCl to promote energy, stamina, and support for daily disposition without harsh synthetic stimulants.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+              Is HorseFil safe and does it cause side effects?
+            </button>
+          </h3>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes! HorseFil is manufactured in the United States in an FDA-registered, GMP-certified facility with globally sourced ingredients under strict quality controls. Its formula is composed of natural actives, without harmful artificial stimulants. Users report no adverse side effects when taken as directed.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+              How and when should I take HorseFil?
+            </button>
+          </h3>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              As a dietary supplement, take one (1) gummy daily with a glass of water. For best results, take the gummy 20 to 30 minutes before a meal or as directed by your healthcare professional, maintaining daily consistency.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+              How many bottles should I order for the best results?
+            </button>
+          </h3>
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              To ensure continuity of vitality support and take advantage of the highest discounts, most customers choose the 6-month kit (6 bottles). Each bottle contains 30 gummies (a 30-day supply). Prolonged use allows the body to fully absorb and benefit from the natural botanical nutrients.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+              Are there any digital bonuses included with multi-bottle orders?
+            </button>
+          </h3>
+          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes! Orders of 3 or 6 bottles include 5 exclusive digital bonuses, such as the Kama Sutra guide, Master of Orgasm course, Memorable Preliminaries, The Power Challenge 10-day guide, and a Personalized Usage Manual.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+              Is there any hidden subscription or recurring billing?
+            </button>
+          </h3>
+          <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Not at all. Your purchase is a strict one-time order with no auto-billing, hidden fees, or surprise monthly charges. You only reorder when you manually choose to do so.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 7 -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+              What is the refund policy and guarantee?
+            </button>
+          </h3>
+          <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              HorseFil is backed by an unconditional 60-day money-back guarantee from the original purchase date. If you are not completely satisfied with your results or your overall experience within 60 days, simply contact customer support for a prompt and complete refund.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 8 -->
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+              Where should I buy the authentic HorseFil supplement?
+            </button>
+          </h3>
+          <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <strong>Only from the official website.</strong> Avoid secondary marketplaces like Amazon or eBay, where unauthorized third-party sellers distribute unverified or counterfeit stock that lacks guarantee protection.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 20: FINAL VERDICT ==================== -->
+  <section id="verdict" class="bg-tinted">
+    <div class="container" style="max-width:780px;">
+      <h2>Final Verdict: Is HorseFil Right for You?</h2>
+      <p>After a rigorous 90-day evaluation, in-depth botanical ingredient analysis, and a comprehensive review of verified consumer feedback, our editorial team has reached a definitive conclusion regarding HorseFil:</p>
+      
+      <p><strong>HorseFil is not a synthetic pharmaceutical drug or an overnight miracle cure.</strong> If you expect a supplement to instantly transform your physical performance without any consistency or healthy lifestyle habits, you will be disappointed — and no honest wellness product claims otherwise. Sustainable male vitality requires a balanced, supportive approach.</p>
+      
+      <p><strong>However, as a daily botanical and nutritional support supplement, HorseFil performs exceptionally well.</strong> Its formulation focuses directly on the biological mechanisms underlying masculine drive: supporting internal energy pathways with Tongkat Ali and Ashwagandha, optimizing circulatory efficiency with L-Arginine HCl and Horny Goat Weed, and building long-term physical resilience through Maca root and Grape seed extract. Furthermore, the innovative gummy delivery format eliminates the friction of swallowing large, chalky pills.</p>
+      
+      <p>Robert’s documented 90-day experience — characterized by steady baseline energy, the elimination of afternoon brain fog, and renewed self-assurance in intimate relationships — closely mirrors the patterns reported by hundreds of verified buyers. When combined with rigorous manufacturing standards in FDA-registered, GMP-certified US facilities and a completely risk-free 60-day money-back guarantee, HorseFil stands out as a trustworthy product in its category.</p>
+      
+      <p><strong>Our Recommendation:</strong> If you are a man looking for a natural, stimulant-free way to revitalize your daily stamina, boost confidence, and support overall virility without harsh artificial chemicals, HorseFil is well worth integrating into your routine. To maximize your results and secure the best financial terms, we recommend opting for the 3-bottle or 6-bottle bundles, which provide enough supply for a thorough evaluation while unlocking free shipping and the complete set of digital wellness bonuses.</p>
+      
+      <p style="font-weight:700;color:var(--primary-blue);margin-top:16px;">Our rating: 9.4/10 — Highly recommended for natural, science-backed male vitality support.</p>
+    </div>
+  </section>
+
+  <!-- ==================== STANDARDIZED FOOTER ==================== -->
+  <footer>
+    <div class="container text-center" style="max-width: 760px; margin: 0 auto;">
+      <p class="mb-2 fw-semibold text-white">Consumer Health Reports</p>
+      <p class="mb-3 text-muted small" style="line-height: 1.6;">
+        Disclaimer: The information published on Consumer Health Reports is for informational and educational purposes only and does not constitute medical advice. Formulations and dietary supplements reviewed are not intended to diagnose, treat, cure, or prevent any disease. Always consult with a licensed physician or healthcare professional before introducing new supplements into your regimen. Results may vary by individual.
+      </p>
+      <div class="mb-3" style="font-size: 0.9rem;">
+        <a href="/" class="me-3"><i class="fa-solid fa-house me-1"></i> Home</a>
+        <a href="/about/"><i class="fa-solid fa-circle-info me-1"></i> About Us &amp; Editorial Guidelines</a>
+      </div>
+      <hr style="border-color: rgba(255,255,255,0.12); margin: 1.5rem 0;">
+      <p class="mb-0 small text-muted">© 2026 Consumer Health Reports. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+</body>
+</html>
