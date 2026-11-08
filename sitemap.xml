@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://consumer-health-reports.github.io/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,12 +11,20 @@
   <!-- Institutional Page -->
   <url>
     <loc>https://consumer-health-reports.github.io/about/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Product 1: Joint Mend -->
+  <!-- Product 1: HorseFil -->
+  <url>
+    <loc>https://consumer-health-reports.github.io/horsefil-review/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Product 2: Joint Mend -->
   <url>
     <loc>https://consumer-health-reports.github.io/jointmend-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -24,7 +32,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 2: Quiet Nerves -->
+  <!-- Product 3: Quiet Nerves -->
   <url>
     <loc>https://consumer-health-reports.github.io/quiet-nerves-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -32,7 +40,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 3: FlowStrong -->
+  <!-- Product 4: FlowStrong -->
   <url>
     <loc>https://consumer-health-reports.github.io/flow-strong-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -40,7 +48,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 4: Thermo Ignite -->
+  <!-- Product 5: Thermo Ignite -->
   <url>
     <loc>https://consumer-health-reports.github.io/thermo-ignite-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -48,7 +56,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 5: Glyco Barrier -->
+  <!-- Product 6: Glyco Barrier -->
   <url>
     <loc>https://consumer-health-reports.github.io/glyco-barrier-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -56,7 +64,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 6: MindWake -->
+  <!-- Product 7: MindWake -->
   <url>
     <loc>https://consumer-health-reports.github.io/mind-wake-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -64,7 +72,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 7: Military Honey -->
+  <!-- Product 8: Military Honey -->
   <url>
     <loc>https://consumer-health-reports.github.io/military-honey-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -72,7 +80,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 8: FloraNew -->
+  <!-- Product 9: FloraNew -->
   <url>
     <loc>https://consumer-health-reports.github.io/floranew-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -80,7 +88,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 9: ProstaFense -->
+  <!-- Product 10: ProstaFense -->
   <url>
     <loc>https://consumer-health-reports.github.io/prostafense-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -88,7 +96,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 10: AudiLeaf -->
+  <!-- Product 11: AudiLeaf -->
   <url>
     <loc>https://consumer-health-reports.github.io/audileaf-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -96,7 +104,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 11: Arthryon -->
+  <!-- Product 12: Arthryon -->
   <url>
     <loc>https://consumer-health-reports.github.io/arthryon-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -104,7 +112,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 12: VisiumPro -->
+  <!-- Product 13: VisiumPro -->
   <url>
     <loc>https://consumer-health-reports.github.io/visiumpro-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -112,7 +120,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 13: NervoLyn -->
+  <!-- Product 14: NervoLyn -->
   <url>
     <loc>https://consumer-health-reports.github.io/nervolyn-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -120,7 +128,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 14: Audifort -->
+  <!-- Product 15: Audifort -->
   <url>
     <loc>https://consumer-health-reports.github.io/audifort-review/</loc>
     <lastmod>2026-10-15</lastmod>
@@ -128,7 +136,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Product 15: BreathEaseX -->
+  <!-- Product 16: BreathEaseX -->
   <url>
     <loc>https://consumer-health-reports.github.io/breatheasex-review/</loc>
     <lastmod>2026-10-15</lastmod>
