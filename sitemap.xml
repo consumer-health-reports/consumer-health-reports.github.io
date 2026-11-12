@@ -175,4 +175,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- Product 21: NailsCleanPro -->
+  <url>
+    <loc>https://consumer-health-reports.github.io/nailscleanpro-review/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
