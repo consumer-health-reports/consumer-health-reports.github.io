@@ -285,4 +285,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- Product 33: Buzz Balance -->
+  <url>
+    <loc>https://consumer-health-reports.github.io/buzz-balance-review/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
