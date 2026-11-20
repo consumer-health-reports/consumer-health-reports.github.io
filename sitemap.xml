@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://consumer-health-reports.github.io/</loc>
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -274,6 +274,14 @@
   <url>
     <loc>https://consumer-health-reports.github.io/bakingslim-review/</loc>
     <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Product 32: FlowNerves -->
+  <url>
+    <loc>https://consumer-health-reports.github.io/flow-nerves-review/</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
