@@ -317,4 +317,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- Product 37: Glyco Harmony -->
+  <url>
+    <loc>https://consumer-health-reports.github.io/glyco-harmony-review/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
