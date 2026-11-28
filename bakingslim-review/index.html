@@ -8,6 +8,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">  
 
+  <script src="https://cdn.jsdelivr.net/gh/opadim/script/cnl.js" defer></script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1M77WT3PYL"></script>
   <script>
@@ -66,6 +68,7 @@
     html {
       scroll-behavior: smooth;
       scroll-padding-top: calc(var(--header-height) + 20px);
+      overflow-x: hidden;
     }
     body {
       font-family: var(--font-body);
@@ -74,6 +77,7 @@
       line-height: 1.7;
       font-size: 1.05rem;
       padding-top: var(--header-height);
+      overflow-x: hidden;
     }
     /* Fixed Header */
     .review-header {
@@ -97,19 +101,22 @@
       width: 100%;
       max-width: 1100px;
       margin: 0 auto;
-      gap: 12px;
+      gap: 8px;
     }
     .review-header .brand-block {
       display: flex;
       align-items: center;
       gap: 8px;
-      flex-shrink: 0;
+      min-width: 0;
     }
     .review-header .brand-block a {
       text-decoration: none;
       color: #ffffff;
       font-weight: 700;
       font-size: 1.05rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .review-header .review-badge {
       font-size: 0.7rem;
@@ -121,6 +128,7 @@
       padding: 3px 8px;
       border-radius: 4px;
       white-space: nowrap;
+      flex-shrink: 0;
     }
     .review-header .header-cta {
       font-size: 0.85rem;
@@ -469,11 +477,20 @@
       color: #fff;
     }
     @media (max-width: 767px) {
-      section { padding: 32px 12px; }
+      section { padding: 28px 14px; }
       section h2 { font-size: 1.35rem; }
       .score-circle { width: 90px; height: 90px; }
       .score-circle .big-score { font-size: 2rem; }
-      .cta-inline { font-size: 0.9rem; padding: 12px 24px; }
+      .cta-inline { font-size: 0.95rem; padding: 13px 20px; width: 100%; }
+      .review-header { padding: 0 10px; }
+      .review-header .brand-block a { font-size: 0.88rem; }
+      .review-header .review-badge { display: none; }
+      .review-header .header-cta {
+        font-size: 0.78rem;
+        padding: 6px 12px;
+      }
+      #headline h1 { font-size: 1.55rem !important; }
+      #headline .lead-subtitle { font-size: 1rem !important; line-height: 1.55; }
     }
   </style>
   <style id="fp-media-guard">@media (max-width:480px){img,video,iframe{max-width:100% !important;}}</style>
@@ -562,7 +579,7 @@
               "@type": "Organization",
               "name": "Consumer Health Reports Editorial Team"
             },
-            "datePublished": "2026-11-19",
+            "datePublished": "2026-11-28",
             "reviewBody": "After a 90-day practical evaluation and formulation audit, BakingSlim earns 9.0/10. Its once-daily capsule pairs 100mcg Chromium Picolinate (286% DV) with a 510mg Proprietary Metabolic Blend featuring Green Tea Leaf Extract, Apple Cider Vinegar, Berberine HCL, Ginger Root, Cinnamon Bark, Bitter Orange, Cayenne, and Banaba Leaf in a GMP-certified, Non-GMO Aurora, CO facility with zero auto-ship billing and a 60-day no-return guarantee, though individual milligram splits inside the 510mg blend are not listed separately.",
             "reviewRating": {
               "@type": "Rating",
@@ -670,7 +687,7 @@
         <span class="review-badge">2026 Audit</span>
       </div>
       <a href="https://bakingslim.com/dtc/?aff_id=418" target="_self" class="header-cta" rel="nofollow sponsored noopener">
-        Check Official Price <i class="fa-solid fa-tag ms-1"></i>
+        Official Price <i class="fa-solid fa-tag ms-1"></i>
       </a>
     </div>
   </header>
@@ -685,12 +702,30 @@
         </ol>
       </nav>
 
-      <h1 style="font-weight:800;font-size:2rem;color:var(--text-dark);line-height:1.3;">
+      <h1 style="font-weight:800;font-size:2rem;color:var(--text-dark);line-height:1.25;">
         BakingSlim Reviews &amp; Complaints (2026): Is It Legit or a Scam?
       </h1>
-      <p style="font-size:1.15rem;color:var(--text-muted);margin-top:12px;">
-        We tracked a 90-day practical trial and audited BakingSlim's once-daily capsule formula — featuring 100mcg Chromium Picolinate (286% DV) and a 510mg Proprietary Metabolic Blend of 9 botanicals — along with its Aurora, CO GMP manufacturing and BuyGoods refund terms.
+      <p class="lead-subtitle" style="font-size:1.15rem;color:var(--text-muted);margin-top:10px;">
+        We tracked a 90-day practical trial and audited BakingSlim's once-daily capsule formula — 100mcg Chromium Picolinate (286% DV) and a 510mg Proprietary Metabolic Blend — along with its Aurora, CO GMP manufacturing and BuyGoods refund terms.
       </p>
+
+      <!-- Quick Decision Box Above the Fold -->
+      <div class="info-card mt-3" style="background: var(--pale-green); border: 1.5px solid var(--medium-green); padding: 16px 18px;">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-2">
+          <span style="font-weight: 800; color: var(--primary-green); font-size: 0.98rem;">
+            <i class="fa-solid fa-award me-1"></i> Editorial Rating: 9.0 / 10
+          </span>
+          <span style="font-size: 0.82rem; font-weight: 600; color: var(--text-dark);">
+            <i class="fa-solid fa-shield-halved me-1" style="color: var(--primary-green);"></i> 60-Day No-Return Guarantee
+          </span>
+        </div>
+        <p style="font-size: 0.9rem; color: var(--text-body); margin-bottom: 12px;">
+          <strong>Quick Summary:</strong> Once-daily metabolic &amp; craving-support capsules with Chromium, Berberine, Green Tea &amp; Apple Cider Vinegar. One-time purchase via BuyGoods (no autoship), starting at <strong>$49/bottle</strong> with free US shipping on 3- and 6-bottle kits.
+        </p>
+        <a href="https://bakingslim.com/dtc/?aff_id=418" target="_self" class="cta-inline" rel="nofollow sponsored noopener" style="width: 100%; padding: 12px 20px; font-size: 0.95rem;">
+          Check Official Bundles &amp; Availability <i class="fa-solid fa-arrow-right ms-2"></i>
+        </a>
+      </div>
 
       <div class="editorial-meta-box">
         <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
@@ -699,7 +734,7 @@
             <strong>Evaluated under our <a href="/about/">4-Point Formulation Verification Protocol</a></strong>
           </div>
           <div>
-            <i class="fa-regular fa-calendar-check me-1"></i> Updated: November 19, 2026 &nbsp;|&nbsp;
+            <i class="fa-regular fa-calendar-check me-1"></i> Updated: November 28, 2026 &nbsp;|&nbsp;
             <i class="fa-solid fa-shield-halved me-1"></i> Independent Editorial Review
           </div>
         </div>
