@@ -78,6 +78,7 @@
     html {
       scroll-behavior: smooth;
       scroll-padding-top: calc(var(--header-height) + 20px);
+      overflow-x: hidden;
     }
     body {
       font-family: var(--font-body);
@@ -86,6 +87,7 @@
       line-height: 1.7;
       font-size: 1.05rem;
       padding-top: var(--header-height);
+      overflow-x: hidden;
     }
     /* Fixed Header */
     .review-header {
@@ -109,19 +111,22 @@
       width: 100%;
       max-width: 1100px;
       margin: 0 auto;
-      gap: 12px;
+      gap: 8px;
     }
     .review-header .brand-block {
       display: flex;
       align-items: center;
       gap: 8px;
-      flex-shrink: 0;
+      min-width: 0;
     }
     .review-header .brand-block a {
       text-decoration: none;
       color: var(--text-dark);
       font-weight: 700;
       font-size: 1.05rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .review-header .review-badge {
       font-size: 0.7rem;
@@ -133,6 +138,7 @@
       padding: 3px 8px;
       border-radius: 4px;
       white-space: nowrap;
+      flex-shrink: 0;
     }
     .review-header .header-cta {
       font-size: 0.85rem;
@@ -397,11 +403,20 @@
       color: #fff;
     }
     @media (max-width: 767px) {
-      section { padding: 32px 12px; }
+      section { padding: 28px 14px; }
       section h2 { font-size: 1.35rem; }
       .score-circle { width: 90px; height: 90px; }
       .score-circle .big-score { font-size: 2rem; }
-      .cta-inline { font-size: 0.9rem; padding: 12px 24px; }
+      .cta-inline { font-size: 0.95rem; padding: 13px 20px; width: 100%; }
+      .review-header { padding: 0 10px; }
+      .review-header .brand-block a { font-size: 0.88rem; }
+      .review-header .review-badge { display: none; }
+      .review-header .header-cta {
+        font-size: 0.78rem;
+        padding: 6px 12px;
+      }
+      #headline h1 { font-size: 1.55rem !important; }
+      #headline .lead-subtitle { font-size: 1rem !important; line-height: 1.55; }
     }
   </style>
   <style id="fp-media-guard">@media (max-width:480px){img,video,iframe{max-width:100% !important;}}</style>
@@ -461,7 +476,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
-          "reviewCount": "6",
+          "reviewCount": "5",
           "bestRating": "5",
           "worstRating": "1"
         },
@@ -566,24 +581,42 @@
         <span class="review-badge">Review</span>
       </div>
       <a href="https://nailscleanpro.com/dtc/?aff_id=1438" target="_self" class="header-cta" rel="nofollow sponsored noopener">
-        View Official Offer <i class="fa-solid fa-tag ms-1"></i>
+        Official Offer <i class="fa-solid fa-tag ms-1"></i>
       </a>
     </div>
   </header>
 
   <!-- ==================== SECTION 2: HEADLINE REVIEW ==================== -->
-  <section id="headline" class="bg-white">
+  <section id="headline" class="bg-white pb-4">
     <div class="container" style="max-width:860px;">
-      <h1 style="font-weight:800;font-size:2rem;color:var(--text-dark);line-height:1.3;">
+      <h1 style="font-weight:800;font-size:2rem;color:var(--text-dark);line-height:1.25;">
         NailsCleanPro Review (2026): 90-Day Nail &amp; Cuticle Routine Audit
       </h1>
-      <p style="font-size:1.2rem;color:var(--text-muted);margin-top:12px;">
-        We documented a 90-day practical routine with NailsCleanPro to examine how this 15-ingredient Undecylenic Acid and botanical oil spray fits into daily nail and cuticle care. Here is our objective breakdown of the ingredients, routine notes, bundle options, and refund terms.
+      <p class="lead-subtitle" style="font-size:1.15rem;color:var(--text-muted);margin-top:10px;">
+        We documented a 90-day practical routine with NailsCleanPro to examine how this 15-ingredient Undecylenic Acid and botanical oil spray fits into daily nail and cuticle care—covering ingredients, routine notes, bundle pricing, and refund terms.
       </p>
-      <p style="font-size:0.85rem;color:var(--text-light-muted);">
-        <i class="fa-solid fa-clock me-1"></i> Last updated: November 2026 &nbsp;|&nbsp; 
+      <p style="font-size:0.85rem;color:var(--text-light-muted);margin-bottom:14px;">
+        <i class="fa-solid fa-clock me-1"></i> Updated: November 2026 &nbsp;|&nbsp; 
         <i class="fa-solid fa-user-check me-1"></i> Independent editorial review &bull; Individual results vary
       </p>
+
+      <!-- Quick Decision Box Above the Fold -->
+      <div class="info-card" style="background: var(--pale-green); border: 1.5px solid var(--medium-green); padding: 16px 18px;">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-2">
+          <span style="font-weight: 800; color: var(--primary-green); font-size: 0.98rem;">
+            <i class="fa-solid fa-award me-1"></i> Editorial Rating: 9.2 / 10
+          </span>
+          <span style="font-size: 0.82rem; font-weight: 600; color: var(--text-dark);">
+            <i class="fa-solid fa-shield-halved me-1" style="color: var(--primary-green);"></i> 60-Day Money-Back Guarantee
+          </span>
+        </div>
+        <p style="font-size: 0.9rem; color: var(--text-body); margin-bottom: 12px;">
+          <strong>Quick Summary:</strong> 15-ingredient topical nail &amp; cuticle spray with Undecylenic Acid, botanical oils &amp; Aloe. One-time purchase (no autoship), starting at <strong>$49/bottle</strong> on the 6-bottle bundle.
+        </p>
+        <a href="https://nailscleanpro.com/dtc/?aff_id=1438" target="_self" class="cta-inline" rel="nofollow sponsored noopener" style="width: 100%; padding: 12px 20px; font-size: 0.95rem;">
+          Check Official Packages &amp; Availability <i class="fa-solid fa-arrow-right ms-2"></i>
+        </a>
+      </div>
     </div>
   </section>
 
